@@ -46,7 +46,7 @@
 - Behavioural Patterns (e.g., Observer, Strategy)
 - Architectural (e.g. ECS, CQRS)
 
-### Data Stores
+### [[Data Stores]]
 ### Data Access
 
 - ADO.NET
