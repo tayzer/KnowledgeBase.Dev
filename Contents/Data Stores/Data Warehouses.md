@@ -1,0 +1,19 @@
+Data warehouses are centralized repositories that store integrated data from one or more disparate sources. They are specially designed for query and analysis rather than transaction processing. Data warehouses are used to consolidate large volumes of data for business intelligence and analytics, enabling businesses to derive insights from their data to make informed decisions.
+- **Types**: 
+	- [[Amazon Redshift]]: A fully managed, petabyte-scale data warehouse service in the cloud that forms part of the larger cloud-computing platform Amazon Web Services.
+	- [[Google BigQuery]]: A web service from Google that is used for handling and analyzing big data. It is part of the Google Cloud Platform.
+	- [[Snowflake]]: A cloud-based data-warehousing company that provides a data warehouse-as-a-service designed for the cloud.
+- **Pros**: 
+	- Optimized for Read-Heavy Operations: Data warehouses are specifically structured for complex queries and analysis, which are read-heavy operations.
+	- Data Recovery and Durability: High data durability and built-in mechanisms for disaster recovery.
+	- Historical Data Storage: They allow for the storage of historical data, enabling comparisons over time for trend analysis.
+	- Integrating Data Sources: Capable of handling data from multiple sources, providing a unified platform for business intelligence.
+- **Cons**: 
+	- Not Ideal for Transactional Processes: Data warehouses are not suitable for real-time, transactional processing.
+	- Cost: Can be expensive to set up, maintain, and manage, especially for small businesses.
+	- Complexity: Requires significant setup, maintenance, and skilled personnel.
+	- Data Latency: Due to the ETL (Extract, Transform, Load) process, there may be latency in data availability.
+- **Use Cases**: 
+	- Business Intelligence: Best suited for business intelligence applications where complex querying and analysis are required.
+	- Data Analytics: Used for running analytics where large volumes of historical data are queried for business insights.
+	- Reporting: Ideal for situations where businesses need to create complex reports and data visualizations.

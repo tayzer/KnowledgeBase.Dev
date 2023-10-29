@@ -1,0 +1,19 @@
+NoSQL databases, or "Not Only SQL" databases, are non-tabular databases that allow for the storage and retrieval of data in formats other than the traditional rows and columns found in relational databases. They are particularly useful for working with large sets of distributed data. NoSQL databases come in a variety of types based on their data model, such as document, key-value, wide-column, and graph formats, each offering unique mechanisms for storage and retrieval.
+- **Types**: 
+	- [[MongoDB]]: A popular open-source document-oriented database known for its flexibility and scalability.
+	- [[Cassandra]]: A wide-column store designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
+	- [[Redis]]: An in-memory key-value store known for its speed, used as a database, cache, message broker, and queue.
+- **Pros**: 
+	- Schema Flexibility: NoSQL databases typically have "schema-less" designs, offering flexibility in data representation.
+	- Horizontal Scaling: They are designed for horizontal scaling, spreading the load across more servers for better performance and throughput.
+	- High Performance: Optimized for specific data models (e.g., key-value, document) that can lead to higher performance for certain types of applications.
+	- Handling Big Data: Efficient in handling large volumes of diverse data, often used in "big data" applications.
+- **Cons**: 
+	- Eventual Consistency: Many NoSQL systems sacrifice immediate consistency (ACID properties) for availability and partition tolerance, leading to "eventual consistency."
+	- Support and Management: Less mature, fewer tools, and less experienced personnel compared to traditional SQL databases.
+	- Complex Transactions: Not all NoSQL databases support ACID transactions; multi-document or multi-record transactions can be complex to handle.
+	- Querying Limitations: Lack of a standardized query language like SQL can lead to limitations in querying capabilities, depending on the database type.
+- **Use Cases**: 
+	- Big Data Applications: Ideal for managing large, evolving datasets with semi-structured or unstructured data.
+	- Real-time Applications: Efficient for real-time data processing and management, such as in gaming, advertising technologies, or live content streaming.
+	- Scalable Systems: Suitable for systems that require automatic scaling or have rapidly changing schemas, common in e-commerce, social media platforms, and IoT applications.

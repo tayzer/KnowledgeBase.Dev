@@ -30,9 +30,13 @@
 - Performance Considerations
 - Secure Coding Practices
 ### [[Design Patterns]]
-- Creational Patterns (e.g., Singleton, Factory Method)
-- Structural Patterns (e.g., Adapter, Decorator)
-- Behavioural Patterns (e.g., Observer, Strategy)
+- [[Creational Patterns]] (e.g., Singleton, Factory Method)
+- [[Structural Patterns]] (e.g., Adapter, Decorator)
+- [[Behavioural Patterns]] (e.g., Observer, Strategy)
+- [[Architectural Patterns]]
+- [[Concurrency Patterns]]
+### Artificial Intelligence
+- [[AI Algorithms]]
 ### [[Data Stores]]
 ### Data Access
 - ADO.NET
@@ -69,5 +73,4 @@
 - Books
 - Courses & Tutorials
 ### Miscellaneous Topics
-- Any other relevant topics, snippets, tips, etc.
 ### Appendices

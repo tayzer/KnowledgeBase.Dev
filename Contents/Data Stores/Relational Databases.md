@@ -1,0 +1,18 @@
+Relational databases are a type of database that organizes data into tables which can be linked—or related—based on data common to each. This type of database uses a structure that allows us to identify and access data in relation to another piece of data in the database. Often used for complex querying, transaction processing, and handling large amounts of data, relational databases are a staple in both large and small applications across various industries.
+- **Types**: 
+	- [[MySQL]]: An open-source relational database system known for its speed and reliability, widely used for many small to medium-sized applications.
+	- [[PostgreSQL]]: An open-source object-relational database system that uses and extends the SQL language. Known for its features, robustness, and scalability.
+	- [[Oracle]]: A proprietary multi-model database management system known for its scalability, reliability, and security features, commonly used in large enterprises and critical systems.
+- **Pros**: 
+	- ACID Compliance: Ensures reliability in every transaction, maintaining data integrity and handling multiple transactions even during system failures.
+	- Complex Queries: Advanced querying capabilities due to structured schema and SQL (Structured Query Language).
+	- Data Integrity: High data integrity due to strong, schema-based data model, and relationships enforced between tables.
+	- Security: Mature and robust security features such as encryption, user authentication, and access controls.
+- **Cons**: 
+	- Scalability: While they can be scaled vertically (more powerful servers), they often struggle with horizontal scaling (more servers), which is challenging and expensive.
+	- Rigid Schema: Altering the schema can be complex and disruptive once the database is operational, making it less flexible for certain types of applications.
+	- Complex Management: High management overhead; requires seasoned database administrators, especially for larger systems.
+- **Use Cases**: 
+	- Transactional Systems: Ideal for applications requiring atomic, consistent, isolated, and durable (ACID) transactions, such as financial systems, customer relationship management (CRM) systems, and e-commerce platforms.
+	- Data Integrity Requirements: Critical when the integrity of data is a top priority, such as in medical, financial, or enterprise applications where consistency of data is crucial.
+	- Complex Querying: Suitable for environments where complex queries are common, and precise, structured queries are required to extract data.
