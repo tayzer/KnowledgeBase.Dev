@@ -29,7 +29,7 @@
 - Code Review Checklist
 - Performance Considerations
 - Secure Coding Practices
-### [[Design Patterns]]
+### [[Learning/Software Development/Knowledge base/Design Patterns]]
 - [[Creational Patterns]] (e.g., Singleton, Factory Method)
 - [[Structural Patterns]] (e.g., Adapter, Decorator)
 - [[Behavioural Patterns]] (e.g., Observer, Strategy)
@@ -43,6 +43,10 @@
 - Entity Framework
 - Dapper
 - Data Serialization and Deserialization
+
+### Scrum 
+
+
 ### Testing
 - Unit Testing (xUnit, NUnit)
 - Mocking Frameworks (Moq)

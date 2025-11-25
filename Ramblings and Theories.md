@@ -1,0 +1,4 @@
+- Processes, procedures, architectures, policies, etc... that force good practises are a good thing. 
+	- For example: Branch policies that deploy beta deployments, this forces any integration tests to get run and we can verify any changes that break other components. This is much better then having to rely on developers to test their own changes
+	- Architectures such as Clean Architecture, this forces people to adhere to contracts in the application layer, separation of concerns. If someone's building a mapper that rightly lives in the application layer, this can't then know about specific infrastructural components. This helps form proper unit tests.
+- Great unit test due to following SRP, separation of concerns will almost... almost make the need for enhanced end-to-end testing obselete. We will have a great way of testing behaviour through unit testing concise classes.
