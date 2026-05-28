@@ -1,0 +1,11 @@
+- [ ] Add notes from architecture book, different distributed architectures
+- [ ] Document Quanta
+- [ ] Distributed System issues: distributed monolith, transient network failures, a study had 12 failures in a month at a data centre, sharks chewing cables. Chaos monkeys sometimes handling this by doing them
+- [ ] Add common test models
+- [ ] Scientist.net
+- [ ] Contract testing
+- [ ] Containers, kubernates
+- [ ] Modular Monoliths
+- [ ] Monorepos
+- [ ] Azure aspire
+- [ ] BDD, its creator Dan? How he wanted to take away from the word "test"

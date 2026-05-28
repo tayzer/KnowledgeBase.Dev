@@ -1,12 +1,42 @@
-### What Should Be in Mappers
+# Mappers
+Date: 2026-04-30
+Status: 🟢 Current
+Tags: #mapping #maintainability #architecture #clean-code
 
-1. **Direct Property Mapping:** Copying values from one object to another where the mapping is direct and consistent regardless of the application's state.
-2. **Basic Transformations:** Simple data transformations, such as formatting strings, converting data types, or defaulting values when null.
-3. **Stateless Operations:** Operations that do not depend on external state or conditions beyond the data in the objects being mapped.
-    
-### What Should Not Be in Mappers
+## 🎯 TL;DR / Quick Reference
 
-1. **Business Logic:** Any logic that involves business rules, decisions, or calculations based on application state or user context.
-2. **External Dependencies:** Dependencies on external services, context objects like HTTP requests, user sessions, or other components that represent the application's runtime state.
-3. **Conditional Logic Based on Application State:** Decisions based on the current state of the application, user permissions, or other dynamic contexts. 
-4. **Side Effects:** Operations that cause changes outside the scope of the mapping, like database access, file I/O, network calls, etc.
+**Definition:** Mappers translate data from one shape to another, such as DTOs to domain models or domain models to view models, without owning business rules or side effects.
+
+**When to use:**
+- When crossing boundaries between transport, application, domain, and persistence models.
+- When object shapes differ but the transformation itself should remain mechanical and easy to test.
+
+**Key Takeaways:**
+- ✅ **Keep mappings mechanical:** direct property assignment and basic transformations belong here.
+- ✅ **Keep mappings stateless:** they should depend on the source data, not ambient runtime context.
+- ⚠️ **Do not hide business rules inside mappers:** once the mapper makes decisions based on user context, permissions, or application state, it is no longer just a mapper.
+
+---
+
+## 📚 Deep Dive
+
+### What Belongs In A Mapper
+1. **Direct property mapping:** Copy values from one object to another where the mapping is explicit and stable.
+2. **Basic transformations:** Format strings, convert data types, or provide simple fallback values.
+3. **Stateless operations:** Use only the input objects and deterministic transformation logic.
+
+### What Does Not Belong In A Mapper
+1. **Business logic:** Decisions, rules, or calculations that depend on domain meaning should live in the application or domain layer.
+2. **External dependencies:** HTTP context, user session, service calls, repository access, and other runtime infrastructure should stay outside the mapper.
+3. **Conditional logic based on application state:** Authorization checks, feature-flag checks, or workflow-state branches are application concerns.
+4. **Side effects:** Database writes, file I/O, network calls, and event publication do not belong in mapping code.
+
+### Why This Boundary Matters
+Keeping mappers small and deterministic makes them easier to unit test, easier to review, and less likely to become a dumping ground for logic that should be explicit elsewhere. In layered designs, this boundary also protects the application layer from reaching into infrastructure concerns through “just one small mapping shortcut.”
+
+## 🔗 Related Concepts
+- [[CleanArchitecture]]
+- [[DependencyInjection]]
+
+## 🔄 Review Schedule
+- [ ] Review in 3 months

@@ -1,19 +1,41 @@
-Data warehouses are centralized repositories that store integrated data from one or more disparate sources. They are specially designed for query and analysis rather than transaction processing. Data warehouses are used to consolidate large volumes of data for business intelligence and analytics, enabling businesses to derive insights from their data to make informed decisions.
-- **Types**: 
-	- [[Amazon Redshift]]: A fully managed, petabyte-scale data warehouse service in the cloud that forms part of the larger cloud-computing platform Amazon Web Services.
-	- [[Google BigQuery]]: A web service from Google that is used for handling and analyzing big data. It is part of the Google Cloud Platform.
-	- [[Snowflake]]: A cloud-based data-warehousing company that provides a data warehouse-as-a-service designed for the cloud.
-- **Pros**: 
-	- Optimized for Read-Heavy Operations: Data warehouses are specifically structured for complex queries and analysis, which are read-heavy operations.
-	- Data Recovery and Durability: High data durability and built-in mechanisms for disaster recovery.
-	- Historical Data Storage: They allow for the storage of historical data, enabling comparisons over time for trend analysis.
-	- Integrating Data Sources: Capable of handling data from multiple sources, providing a unified platform for business intelligence.
-- **Cons**: 
-	- Not Ideal for Transactional Processes: Data warehouses are not suitable for real-time, transactional processing.
-	- Cost: Can be expensive to set up, maintain, and manage, especially for small businesses.
-	- Complexity: Requires significant setup, maintenance, and skilled personnel.
-	- Data Latency: Due to the ETL (Extract, Transform, Load) process, there may be latency in data availability.
-- **Use Cases**: 
-	- Business Intelligence: Best suited for business intelligence applications where complex querying and analysis are required.
-	- Data Analytics: Used for running analytics where large volumes of historical data are queried for business insights.
-	- Reporting: Ideal for situations where businesses need to create complex reports and data visualizations.
+# Data Warehouses
+Date: 2026-04-30
+Status: 🟡 Needs Review
+Tags: #datawarehouse #analytics #bi #data
+
+## 🎯 TL;DR / Quick Reference
+
+**Definition:** A category of data platforms optimized for analytical queries over large datasets rather than transactional application workloads.
+
+**When to use:**
+- Business intelligence, reporting, and large-scale analytics over integrated historical data.
+- Workloads where read-heavy analytical queries matter more than low-latency transactional writes.
+
+**Key Takeaways:**
+- ✅ **Analytical optimization** makes data warehouses a strong fit for BI and reporting.
+- ✅ **Managed platforms reduce operational burden** compared with building analytics infrastructure from scratch.
+- ⚠️ **They are not OLTP databases** and usually introduce ingestion, modeling, and cost-governance tradeoffs.
+
+---
+
+## 📚 Deep Dive
+
+### What This Category Covers
+Data warehouses consolidate large datasets for analytical processing. They are usually chosen for reporting, trend analysis, dashboards, and cross-domain querying rather than operational transactions.
+
+### How To Choose Within This Category
+- Choose based on operating model: serverless versus provisioned or semi-managed capacity.
+- Choose based on ecosystem fit: AWS, Azure, GCP, or multi-cloud preferences.
+- Choose based on cost and workload shape: storage/compute separation, concurrency model, and query-pricing behavior.
+
+### Child Notes
+- [[Amazon Redshift]] - AWS-focused warehouse optimized for analytical workloads inside the AWS ecosystem.
+- [[Google BigQuery]] - Serverless GCP warehouse designed for large-scale SQL analytics.
+- [[Snowflake]] - Cloud-native warehouse with strong separation of compute and storage and broad platform flexibility.
+
+## 🔗 Related Concepts
+- [[Relational Databases]]
+- [[Cloud Storage Services]]
+
+## 🔄 Review Schedule
+- [ ] Review in 3 months

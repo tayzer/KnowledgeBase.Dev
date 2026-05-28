@@ -1,19 +1,41 @@
-NoSQL databases, or "Not Only SQL" databases, are non-tabular databases that allow for the storage and retrieval of data in formats other than the traditional rows and columns found in relational databases. They are particularly useful for working with large sets of distributed data. NoSQL databases come in a variety of types based on their data model, such as document, key-value, wide-column, and graph formats, each offering unique mechanisms for storage and retrieval.
-- **Types**: 
-	- [[MongoDB]]: A popular open-source document-oriented database known for its flexibility and scalability.
-	- [[Cassandra]]: A wide-column store designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
-	- [[Redis]]: An in-memory key-value store known for its speed, used as a database, cache, message broker, and queue.
-- **Pros**: 
-	- Schema Flexibility: NoSQL databases typically have "schema-less" designs, offering flexibility in data representation.
-	- Horizontal Scaling: They are designed for horizontal scaling, spreading the load across more servers for better performance and throughput.
-	- High Performance: Optimized for specific data models (e.g., key-value, document) that can lead to higher performance for certain types of applications.
-	- Handling Big Data: Efficient in handling large volumes of diverse data, often used in "big data" applications.
-- **Cons**: 
-	- Eventual Consistency: Many NoSQL systems sacrifice immediate consistency (ACID properties) for availability and partition tolerance, leading to "eventual consistency."
-	- Support and Management: Less mature, fewer tools, and less experienced personnel compared to traditional SQL databases.
-	- Complex Transactions: Not all NoSQL databases support ACID transactions; multi-document or multi-record transactions can be complex to handle.
-	- Querying Limitations: Lack of a standardized query language like SQL can lead to limitations in querying capabilities, depending on the database type.
-- **Use Cases**: 
-	- Big Data Applications: Ideal for managing large, evolving datasets with semi-structured or unstructured data.
-	- Real-time Applications: Efficient for real-time data processing and management, such as in gaming, advertising technologies, or live content streaming.
-	- Scalable Systems: Suitable for systems that require automatic scaling or have rapidly changing schemas, common in e-commerce, social media platforms, and IoT applications.
+# NoSQL Databases
+Date: 2026-04-30
+Status: 🟡 Needs Review
+Tags: #databases #nosql #distributed #data
+
+## 🎯 TL;DR / Quick Reference
+
+**Definition:** A category of non-relational databases optimized around specific data models such as document, key-value, or wide-column storage rather than a single relational-table approach.
+
+**When to use:**
+- Systems with high scale, flexible schemas, or access patterns that map poorly to relational joins and rigid schemas.
+- Workloads where the chosen data model is more important than having one standardized query model across everything.
+
+**Key Takeaways:**
+- ✅ **Data-model specialization** can simplify certain workloads and scale patterns.
+- ✅ **Horizontal scaling and operational flexibility** are common reasons to choose NoSQL systems.
+- ⚠️ **Tradeoffs are product-specific**: consistency, transactions, querying, and tooling vary widely across NoSQL databases.
+
+---
+
+## 📚 Deep Dive
+
+### What This Category Covers
+NoSQL is not one thing. It is a grouping of database families that make different tradeoffs around schema, consistency, distribution, and query behavior.
+
+### How To Choose Within This Category
+- Start with the data model: document, key-value, wide-column, or graph.
+- Match the database to the dominant access patterns rather than trying to force one store to fit every problem.
+- Be explicit about consistency requirements, operational complexity, and how much query flexibility the system really needs.
+
+### Child Notes
+- [[MongoDB]] - Document database for flexible, aggregate-oriented application data.
+- [[Cassandra]] - Wide-column distributed store for high-write, highly available workloads.
+- [[Redis]] - In-memory key-value store often used for caching, fast lookup, messaging, and queue-like workloads.
+
+## 🔗 Related Concepts
+- [[Relational Databases]]
+- [[Data Warehouses]]
+
+## 🔄 Review Schedule
+- [ ] Review in 3 months
