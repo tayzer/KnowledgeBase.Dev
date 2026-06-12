@@ -57,5 +57,9 @@ services.AddApiVersioning(options => {
 
 ## 📝 Personal Notes
 
+Very important to implement, especially in distributed systems. We dont want to force consumers to adopt new changes to things like behaviour and contracts. 
+
+You can use things like API Managements built in versioning to support versioning.
+
 ## 🔄 Review Schedule
 - [ ] Review in 6 months
