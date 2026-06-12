@@ -96,7 +96,7 @@ If a note is still exploratory rather than publishable, keep it out of `Areas/`.
 ### Recommended Review Flow
 1. Decide whether the topic is a reference note, hub note, or draft.
 2. Search for the closest existing note before creating a new one.
-3. Start from the appropriate template in [[Documentation Templates]].
+3. Start from the appropriate template in [[Resources/KnowledgeBase/Documentation Templates|Documentation Templates]].
 4. Add the minimum required structure.
 5. Add depth only where it materially helps the reader.
 6. Add related links that help navigation.
@@ -105,7 +105,7 @@ If a note is still exploratory rather than publishable, keep it out of `Areas/`.
 ---
 
 ## 🔗 Related Concepts
-- [[Documentation Templates]]
+- [[Resources/KnowledgeBase/Documentation Templates|Documentation Templates]]
 - [[CodeReviewGuidelines]]
 
 ## 📖 Resources

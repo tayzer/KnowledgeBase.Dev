@@ -165,7 +165,7 @@ Tags: #draft #tag1
 ---
 
 ## 🔗 Related Concepts
-- [[Documentation Standards]]
+- [[Resources/KnowledgeBase/Documentation Standards|Documentation Standards]]
 
 ## 📖 Resources
 - [[NullableReferenceTypes]]
