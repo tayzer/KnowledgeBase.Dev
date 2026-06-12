@@ -5,7 +5,7 @@ Tags: #async #concurrency #dotnet
 
 ## 🎯 TL;DR / Quick Reference
 
-**Definition:** Asynchronous programming model in .NET using `async`/`await` to write non-blocking I/O and concurrency-friendly code.
+**Definition:** Asynchronous programming model in .NET using `async` and `await` to write non-blocking I/O and concurrency-friendly code.
 
 **When to use:**
 - I/O-bound work where you want to free threads for other work.
@@ -18,4 +18,3 @@ Tags: #async #concurrency #dotnet
 
 ## 🔄 Review Schedule
 - [ ] Review in 6 months
-

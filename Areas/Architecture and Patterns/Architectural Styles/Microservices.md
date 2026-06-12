@@ -21,7 +21,7 @@ Tags: #microservices #architecture #distributed
 ## 📚 Deep Dive
 
 ### What Microservices Optimize For
-Microservices trade simplicity for organizational and operational independence. The goal is not “many small services” by itself, but the ability to evolve parts of a system independently when the domain, team structure, and delivery model justify the cost.
+Microservices trade simplicity for organizational and operational independence. The goal is not "many small services" by itself, but the ability to evolve parts of a system independently when the domain, team structure, and delivery model justify the cost.
 
 ### Good Fit
 - Large domains with distinct business capabilities that evolve at different speeds.
@@ -56,4 +56,3 @@ Microservices trade simplicity for organizational and operational independence. 
 
 ## 🔄 Review Schedule
 - [ ] Review in 3 months
-

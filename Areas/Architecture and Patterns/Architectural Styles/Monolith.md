@@ -21,4 +21,3 @@ Tags: #architecture #monolith #design
 
 ## 🔄 Review Schedule
 - [ ] Review in 6 months
-

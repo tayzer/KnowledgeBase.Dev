@@ -13,7 +13,7 @@ Tags: #design-patterns #architecture #data-access #csharp #testing
 - To centralize query logic (e.g., "GetActiveUsers") to avoid duplication.
 
 **Key Takeaways:**
-- ✅ **Abstraction:** The calling code shouldn't know if data comes from a DB or a web service.
+- ✅ **Abstraction:** The calling code should not know if data comes from a DB or a web service.
 - ✅ **Testability:** Easy to swap with an `InMemoryRepository` for tests.
 - ✅ **Consistency:** Prevents scattered LINQ queries throughout the codebase.
 - ⚡ **Performance:** Be careful not to hide performance pitfalls (like N+1 problems) behind the abstraction.
@@ -33,7 +33,7 @@ public class EfUserRepository : IUserRepository
     private readonly AppDbContext _context;
     public EfUserRepository(AppDbContext context) => _context = context;
 
-    public async Task<User?> GetByIdAsync(int id) => 
+    public async Task<User?> GetByIdAsync(int id) =>
         await _context.Users.FindAsync(id);
 
     public async Task<IEnumerable<User>> GetActiveUsersAsync() =>
@@ -45,7 +45,7 @@ public class EfUserRepository : IUserRepository
 
 **Gotchas:**
 - ⚠️ **Generic Repository Trap:** Avoid `IRepository<T>` for everything. It often leads to leaky abstractions (`IQueryable` leaking out). Prefer specific repositories (`IUserRepository`) or a hybrid approach.
-- ⚠️ **IQueryable Leaks:** Returning `IQueryable<T>` from a repository defeats the purpose of the pattern, as the controller/service can modify the query (coupling them to the DB schema).
+- ⚠️ **IQueryable Leaks:** Returning `IQueryable<T>` from a repository defeats the purpose of the pattern, as the controller or service can modify the query (coupling them to the DB schema).
 - ⚠️ **Over-abstraction:** With EF Core, the `DbSet` is already a repository and `DbContext` is a Unit of Work. For simple apps, a repository layer might be overkill.
 
 ---
@@ -86,9 +86,9 @@ public async Task PlaceOrder(Order order)
 {
     _orderRepo.Add(order);
     _inventoryRepo.DecrementStock(order.Items);
-    
+
     // Commit both changes in one transaction
-    await _unitOfWork.SaveChangesAsync(); 
+    await _unitOfWork.SaveChangesAsync();
 }
 ```
 
@@ -97,7 +97,7 @@ public async Task PlaceOrder(Order order)
 1.  **Lazy Loading:** If your repository returns entities connected to other entities, be wary of lazy loading triggering N+1 queries outside the repository.
 2.  **Tracking:** For read-only scenarios, use `.AsNoTracking()` inside the repository to save overhead.
     ```csharp
-    public async Task<User> GetReadOnly(int id) => 
+    public async Task<User> GetReadOnly(int id) =>
         await _context.Users.AsNoTracking().FirstOrDefaultAsync(u => u.Id == id);
     ```
 

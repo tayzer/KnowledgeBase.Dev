@@ -21,4 +21,3 @@ Tags: #cqrs #architecture #patterns
 
 ## 🔄 Review Schedule
 - [ ] Review in 3 months
-

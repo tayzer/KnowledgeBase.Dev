@@ -45,7 +45,7 @@ Clean Architecture organizes code so the most important business rules sit at th
 - Keep the composition root and dependency wiring near the application edge.
 
 ## 🔗 Related Concepts
-- [[SolidPrinciples]]
+- [[SOLID]]
 - [[DependencyInjection]]
 - [[Repository]]
 
@@ -59,4 +59,3 @@ Clean Architecture organizes code so the most important business rules sit at th
 
 ## 🔄 Review Schedule
 - [ ] Review in 3 months
-

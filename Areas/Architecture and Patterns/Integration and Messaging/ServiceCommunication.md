@@ -11,7 +11,7 @@ Tags: #architecture #microservices #communication #patterns
 - Inter-service interactions in distributed systems.
 
 **Key Takeaways:**
-- ✅ **Synchronous (HTTP/gRPC)**: straightforward but couples latency/fault domains.
+- ✅ **Synchronous (HTTP/gRPC)**: straightforward but couples latency and fault domains.
 - ✅ **Asynchronous (Message queues, Pub/Sub)**: improves resilience and decoupling.
 - ⚡ **Use idempotency and retries** to handle partial failures.
 
@@ -34,7 +34,7 @@ public class OrdersService : Orders.OrdersBase
 
 ### Protocol Choice
 - **HTTP/REST:** Ubiquitous, simple, human-readable.
-- **gRPC:** Binary, fast, strongly-typed contracts—great for internal low-latency services.
+- **gRPC:** Binary, fast, strongly-typed contracts and good for internal low-latency services.
 - **Messaging (RabbitMQ, Kafka):** Durable, decoupled, good for event-driven systems.
 
 ### Patterns

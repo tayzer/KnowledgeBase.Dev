@@ -5,7 +5,7 @@ Tags: #mvc #architecture #web
 
 ## 🎯 TL;DR / Quick Reference
 
-**Definition:** Architectural pattern separating concerns into Model (application state and behavior relevant to the view), View (UI), and Controller (input/interaction).
+**Definition:** Architectural pattern separating concerns into Model (application state and behavior relevant to the view), View (UI), and Controller (input and interaction).
 
 **When to use:**
 - Web applications and UI-driven apps where separation of concerns improves maintainability.
@@ -37,7 +37,7 @@ Tags: #mvc #architecture #web
 
 ### Practical Guidance
 - Keep controllers thin and push business behavior into application or domain services.
-- Use dedicated view models when the view’s needs differ from domain structures.
+- Use dedicated view models when the view's needs differ from domain structures.
 - Be explicit about where request mapping, validation, and persistence responsibilities live.
 
 ## 🔗 Related Concepts
@@ -54,4 +54,3 @@ Tags: #mvc #architecture #web
 
 ## 🔄 Review Schedule
 - [ ] Review in 3 months
-

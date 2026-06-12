@@ -21,4 +21,3 @@ Tags: #architecture #event-driven #messaging
 
 ## 🔄 Review Schedule
 - [ ] Review in 6 months
-

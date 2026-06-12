@@ -13,7 +13,7 @@ Tags: #architecture #data-access #patterns #csharp
 **Key Takeaways:**
 - ✅ **UnitOfWork.SaveChanges()** commits changes across repositories in one transaction.
 - ✅ **Repositories** expose domain-friendly operations; UoW handles persistence transactions.
-- ⚠️ **Don't leak DbContext** across layers; keep it at infrastructure boundary.
+- ⚠️ **Do not leak DbContext** across layers; keep it at infrastructure boundary.
 
 **Code Snippet:**
 ```csharp
@@ -45,7 +45,7 @@ public class Service
 - [[EntityFramework/QueryOptimisations]]
 
 ## 📖 Resources
-- Patterns & Practices articles
+- Patterns and Practices articles
 
 ## 🧪 Practice Exercises
 1. Implement a `UnitOfWork` that wraps `AppDbContext` and ensures `SaveChangesAsync` uses an explicit transaction.
