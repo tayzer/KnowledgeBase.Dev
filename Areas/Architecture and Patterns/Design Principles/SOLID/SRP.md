@@ -27,14 +27,19 @@ public class OrderService
 }
 
 // ✅ Responsibilities separated
-public class OrderService
+public interface IOrderStore
 {
-    private readonly IOrderRepository _repo;
-    public OrderService(IOrderRepository repo) => _repo = repo;
-    public void PlaceOrder(Order order) { /* business rules only */ _repo.Save(order); }
+    void Save(Order order);
 }
 
-public class SqlOrderRepository : IOrderRepository
+public class OrderService
+{
+    private readonly IOrderStore _store;
+    public OrderService(IOrderStore store) => _store = store;
+    public void PlaceOrder(Order order) { /* business rules only */ _store.Save(order); }
+}
+
+public class SqlOrderStore : IOrderStore
 {
     public void Save(Order order) { /* SQL only */ }
 }

@@ -30,20 +30,20 @@ public class OrderService
 
 // ✅ Both depend on the abstraction; the abstraction is owned by the domain layer
 // Domain layer (high-level)
-public interface IOrderRepository        // lives in Domain, NOT in Infrastructure
+public interface IOrderWriter            // lives in Domain, NOT in Infrastructure
 {
     void Save(Order order);
 }
 
 public class OrderService
 {
-    private readonly IOrderRepository _repo;
-    public OrderService(IOrderRepository repo) => _repo = repo;
-    public void PlaceOrder(Order order) => _repo.Save(order);
+    private readonly IOrderWriter _writer;
+    public OrderService(IOrderWriter writer) => _writer = writer;
+    public void PlaceOrder(Order order) => _writer.Save(order);
 }
 
 // Infrastructure layer (low-level) — depends on the domain abstraction
-public class SqlOrderRepository : IOrderRepository
+public class SqlOrderWriter : IOrderWriter
 {
     public void Save(Order order) { /* SQL */ }
 }
@@ -51,7 +51,7 @@ public class SqlOrderRepository : IOrderRepository
 
 **Gotchas:**
 - ⚠️ **Service Locator anti-pattern:** Calling a container inside a class to resolve dependencies is DIP in name only — it hides dependencies and hurts testability.
-- ⚠️ **Abstraction in the wrong layer:** Placing `IOrderRepository` in the Infrastructure project inverts nothing — Infrastructure still owns the contract.
+- ⚠️ **Abstraction in the wrong layer:** Placing `IOrderWriter` in the Infrastructure project inverts nothing — Infrastructure still owns the contract.
 - ⚠️ **Over-abstracting trivial helpers:** Value objects, `DateTime.UtcNow` wrappers, and pure functions rarely need DI; wrap them only when you need to control them in tests.
 
 ---
@@ -71,16 +71,16 @@ The business layer owns and defines the abstraction. Infrastructure depends on B
 ### Dependency Injection vs DIP
 DIP is the *principle*; Dependency Injection is the most common *mechanism* for satisfying it. A DI container automates constructor injection, but DIP can be achieved without a container (manual composition root, factory methods).
 
-| Mechanism | Notes |
-|---|---|
+| Mechanism             | Notes                                              |
+| --------------------- | -------------------------------------------------- |
 | Constructor injection | Preferred — dependencies are explicit and required |
-| Property injection | Use only for optional dependencies |
-| Method injection | Use when dependency varies per-call |
-| Service Locator | Anti-pattern — hides dependencies |
+| Property injection    | Use only for optional dependencies                 |
+| Method injection      | Use when dependency varies per-call                |
+| Service Locator       | Anti-pattern — hides dependencies                  |
 
 ### Layered Ownership of Abstractions
 In Clean Architecture terms:
-- `Domain` / `Application` layers define abstractions (`IOrderRepository`, `IEmailSender`).
+- `Domain` / `Application` layers define abstractions (`IOrderWriter`, `IEmailSender`).
 - `Infrastructure` / `Presentation` layers implement them.
 - Dependency arrows always point inward toward the domain.
 
