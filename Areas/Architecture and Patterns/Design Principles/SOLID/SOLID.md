@@ -9,11 +9,11 @@ Tags: #design #architecture #csharp #solid #principles
 
 | Principle | One-liner |
 |---|---|
-| [[SRP]] — Single Responsibility | A class should have one reason to change |
-| [[OCP]] — Open/Closed | Open for extension, closed for modification |
-| [[LSP]] — Liskov Substitution | Subtypes must be substitutable for their base types |
-| [[ISP]] — Interface Segregation | Prefer many specific interfaces over one large one |
-| [[DIP]] — Dependency Inversion | High-level modules depend on abstractions, not concretions |
+| [SRP](SRP.md) — Single Responsibility | A class should have one reason to change |
+| [OCP](OCP.md) — Open/Closed | Open for extension, closed for modification |
+| [LSP](LSP.md) — Liskov Substitution | Subtypes must be substitutable for their base types |
+| [ISP](ISP.md) — Interface Segregation | Prefer many specific interfaces over one large one |
+| [DIP](DIP.md) — Dependency Inversion | High-level modules depend on abstractions, not concretions |
 
 **When to use:**
 - Designing classes and APIs for medium-to-large systems.
@@ -54,11 +54,11 @@ A class that violates SRP is usually hard to extend (OCP) because its responsibi
 ---
 
 ## 🔗 Related Concepts
-- [[SRP]]
-- [[OCP]]
-- [[LSP]]
-- [[ISP]]
-- [[DIP]]
+- [SRP](SRP.md)
+- [OCP](OCP.md)
+- [LSP](LSP.md)
+- [ISP](ISP.md)
+- [DIP](DIP.md)
 - [[RepositoryUnitOfWork]]
 - [[CleanArchitecture]]
 - [[DependencyInjection]]
