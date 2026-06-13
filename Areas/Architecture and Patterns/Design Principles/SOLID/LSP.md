@@ -19,25 +19,52 @@ Tags: #design #architecture #solid #principles #lsp
 
 **Code Snippet:**
 ```csharp
-// ❌ Violates LSP — Square strengthens the precondition for Width/Height
-public class Rectangle
+// ❌ Violates LSP — subtype strengthens preconditions and throws
+public interface IFileWriter
 {
-    public virtual int Width  { get; set; }
-    public virtual int Height { get; set; }
-    public int Area() => Width * Height;
+    // Contract: append text to an existing or new file.
+    void Write(string path, string content);
 }
 
-public class Square : Rectangle
+public class LocalFileWriter : IFileWriter
 {
-    public override int Width  { set { base.Width = base.Height = value; } }
-    public override int Height { set { base.Width = base.Height = value; } }
+    public void Write(string path, string content)
+        => System.IO.File.AppendAllText(path, content);
 }
-// Code that sets Width then Height independently will break for Square.
 
-// ✅ Model the domain correctly — Shape has Area(), Rectangle and Square are separate
-public abstract class Shape  { public abstract int Area(); }
-public class Rectangle : Shape { public int Width; public int Height; public override int Area() => Width * Height; }
-public class Square     : Shape { public int Side;               public override int Area() => Side * Side; }
+public class ReadOnlyFileWriter : IFileWriter
+{
+    public void Write(string path, string content)
+        => throw new NotSupportedException("Read-only mode.");
+}
+
+// Any caller that works with IFileWriter will break when substituted with ReadOnlyFileWriter.
+
+// ✅ Preserve substitutability by separating capabilities
+public interface IFileReader
+{
+    string Read(string path);
+}
+
+public interface IWritableFileStore : IFileReader
+{
+    void Write(string path, string content);
+}
+
+public sealed class LocalFileStore : IWritableFileStore
+{
+    public string Read(string path) => System.IO.File.ReadAllText(path);
+    public void Write(string path, string content)
+        => System.IO.File.AppendAllText(path, content);
+}
+
+public sealed class ReadOnlyFileStore : IFileReader
+{
+    public string Read(string path) => System.IO.File.ReadAllText(path);
+}
+
+// Callers that need writes depend on IWritableFileStore.
+// Callers that only read depend on IFileReader.
 ```
 
 **Gotchas:**
