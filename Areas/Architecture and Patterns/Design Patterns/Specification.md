@@ -1,4 +1,4 @@
-# Specification Pattern
+# Specification
 Date: 2026-06-13
 Status: 🟢 Current
 Tags: #design-patterns #architecture #specification #domain-driven-design #ocp

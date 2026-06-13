@@ -49,7 +49,7 @@ DI separates the construction of an object from its behavior. The composition ro
 - [[TransientLifetime|Transient]] and new instance each resolution (good for lightweight stateless services).
 
 ### Advanced Topics
-- Factories and `Func<T>` registrations for on-demand creation.
+- Factories and `Func<T>` registrations let a class ask for a dependency only when it needs one, rather than receiving it up front. Use them when creation should be delayed until runtime, or when only some code paths need the object. Keep the factory itself injected so the dependency stays explicit; do not use the container directly from the class.
 - `IServiceProvider` can be used for late binding but use sparingly.
 - Use third-party containers (Autofac) when you need advanced features.
 

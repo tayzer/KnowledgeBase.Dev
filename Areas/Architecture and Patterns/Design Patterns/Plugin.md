@@ -1,4 +1,4 @@
-# Plugin Pattern
+# Plugin
 Date: 2026-06-13
 Status: 🟢 Current
 Tags: #design-patterns #architecture #plugin #extension #ocp
