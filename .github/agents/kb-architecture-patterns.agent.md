@@ -1,9 +1,8 @@
 ---
 description: "Expert on software architecture, system design, distributed systems, clean architecture, CQRS, event-driven design, microservices, monoliths, concurrency patterns, and application or design-pattern tradeoffs. Use for architecture questions and pattern-focused KB work."
 name: kb-architecture-patterns
-tools: [read, search, memory]
+tools: [read, search, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
 argument-hint: "Architecture question, pattern choice, or note request"
 ---
 

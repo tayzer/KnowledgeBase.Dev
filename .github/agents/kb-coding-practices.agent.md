@@ -1,9 +1,8 @@
 ---
 description: "Expert on coding practices, refactoring, maintainability, clean code, code review, API design, mapping, engineering fundamentals, and cross-language software design habits. Use for maintainability questions and coding-practice KB work."
 name: kb-coding-practices
-tools: [read, search, memory]
+tools: [read, search, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
 argument-hint: "Coding-practice question, review concern, or note request"
 ---
 

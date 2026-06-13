@@ -150,6 +150,32 @@ services.AddScoped<CheckoutService>();
 
 **Key insight:** `CheckoutService` does not choose the implementation. The composition root registers one, and the container injects that concrete type when it builds the service. If you need multiple implementations, use a separate abstraction, keyed services, or `IEnumerable<IPaymentProcessor>` rather than resolving inside the class.
 
+### Multiple Registrations in .NET
+
+When more than one implementation is registered, the usual options are:
+
+```csharp
+// 1. Inject all registered implementations
+public class CheckoutService(IEnumerable<IPaymentProcessor> processors)
+{
+    public void CompleteOrder(decimal total)
+    {
+        foreach (var processor in processors)
+            processor.Process(total);
+    }
+}
+
+// 2. Ask for one specific implementation by key
+public class CheckoutService([FromKeyedServices("stripe")] IPaymentProcessor processor)
+{
+    public void CompleteOrder(decimal total) => processor.Process(total);
+}
+```
+
+- Use `IEnumerable<IPaymentProcessor>` when the class should run all registered implementations.
+- Use keyed services when the class needs one specific implementation and the choice belongs in composition, not in the class.
+- Avoid calling `IServiceProvider.GetRequiredService` inside the class; that turns DI into service locator.
+
 ### Pitfall: Violating Liskov Substitution Principle (LSP)
 
 A derived type that breaks the contract violates LSP and breaks polymorphic assumptions:
