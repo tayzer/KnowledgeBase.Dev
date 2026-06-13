@@ -71,12 +71,12 @@ The business layer owns and defines the abstraction. Infrastructure depends on B
 ### Dependency Injection vs DIP
 DIP is the *principle*; Dependency Injection is the most common *mechanism* for satisfying it. A DI container automates constructor injection, but DIP can be achieved without a container (manual composition root, factory methods).
 
-| Mechanism             | Notes                                              |
-| --------------------- | -------------------------------------------------- |
-| Constructor injection | Preferred — dependencies are explicit and required |
-| Property injection    | Use only for optional dependencies                 |
-| Method injection      | Use when dependency varies per-call                |
-| Service Locator       | Anti-pattern — hides dependencies                  |
+| Mechanism                                         | Notes                                              |
+| ------------------------------------------------- | -------------------------------------------------- |
+| [[ConstructorInjection|Constructor injection]]    | Preferred — dependencies are explicit and required |
+| [[PropertyInjection|Property injection]]          | Use only for optional dependencies                 |
+| [[MethodInjection|Method injection]]              | Use when dependency varies per-call                |
+| [[ServiceLocator|Service Locator]]                | Anti-pattern — hides dependencies                  |
 
 ### Layered Ownership of Abstractions
 In Clean Architecture terms:
@@ -102,6 +102,10 @@ In Clean Architecture terms:
 - [[OCP]]
 - [[ISP]]
 - [[DependencyInjection]]
+- [[ConstructorInjection]]
+- [[PropertyInjection]]
+- [[MethodInjection]]
+- [[ServiceLocator]]
 - [[CleanArchitecture]]
 
 ## 📖 Resources

@@ -14,7 +14,7 @@ Tags: #csharp #dotnet #dependency-injection #architecture #patterns
 **Key Takeaways:**
 - ✅ **Constructor injection** is preferred for required dependencies.
 - ✅ **Avoid service locator** pattern; prefer explicit injection.
-- ⚡ **Lifetimes matter:** `Singleton`, `Scoped`, `Transient` and choose correctly.
+- ⚡ **Lifetimes matter:** [[SingletonLifetime|Singleton]], [[ScopedLifetime|Scoped]], [[TransientLifetime|Transient]] and choose correctly.
 
 **Code Snippet:**
 ```csharp
@@ -44,9 +44,9 @@ DI separates the construction of an object from its behavior. The composition ro
 - Keep the DI container usage minimal to maintain testability.
 
 ### Lifetime Implications
-- `Singleton` and one instance for app lifetime. Use for stateless or thread-safe caches.
-- `Scoped` and one instance per logical scope (HTTP request in ASP.NET Core).
-- `Transient` and new instance each resolution (good for lightweight stateless services).
+- [[SingletonLifetime|Singleton]] and one instance for app lifetime. Use for stateless or thread-safe caches.
+- [[ScopedLifetime|Scoped]] and one instance per logical scope (HTTP request in ASP.NET Core).
+- [[TransientLifetime|Transient]] and new instance each resolution (good for lightweight stateless services).
 
 ### Advanced Topics
 - Factories and `Func<T>` registrations for on-demand creation.
@@ -58,6 +58,13 @@ DI separates the construction of an object from its behavior. The composition ro
 ## 🔗 Related Concepts
 - [[ConfigurationOptionsPattern]]
 - [[RepositoryUnitOfWork]]
+- [[ConstructorInjection]]
+- [[PropertyInjection]]
+- [[MethodInjection]]
+- [[ServiceLocator]]
+- [[SingletonLifetime]]
+- [[ScopedLifetime]]
+- [[TransientLifetime]]
 
 ## 📖 Resources
 - Microsoft Docs: Dependency injection in .NET
