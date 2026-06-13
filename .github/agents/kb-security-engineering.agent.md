@@ -1,9 +1,9 @@
 ---
 description: "Expert on secure design, authentication, authorization, secrets handling, dependency risk, threat modeling, vulnerability mitigation, and secure coding guidance. Use for security-focused KB work."
 name: kb-security-engineering
-tools: [read, search, memory]
+tools: [read, search, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
+
 argument-hint: "Security question, threat concern, or hardening note request"
 ---
 

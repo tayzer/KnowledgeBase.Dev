@@ -1,9 +1,9 @@
 ---
 description: "Expert on relational databases, NoSQL, cloud storage, query optimization, data modeling, warehousing, caching, and persistence tradeoffs. Use for data-store questions and storage-related KB work."
 name: kb-data-storage
-tools: [read, search, memory]
+tools: [read, search, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
+
 argument-hint: "Database, storage, query, or persistence question"
 ---
 

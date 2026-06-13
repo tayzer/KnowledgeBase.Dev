@@ -1,9 +1,9 @@
 ---
 description: "Expert on frontend engineering, web architecture, UI systems, accessibility, performance, interaction design, state management, and client-side delivery tradeoffs. Use for frontend and UX KB work."
 name: kb-frontend-ui
-tools: [read, search, memory]
+tools: [read, search, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
+
 argument-hint: "Frontend, UX, accessibility, or client-side question"
 ---
 

@@ -1,9 +1,9 @@
 ---
 description: "Review synthesized software-engineering answers and markdown note drafts for clarity, completeness, structure, consistency, and vault alignment. Use before finalizing coordinator output."
 name: kb-reviewer
-tools: [read, search, memory]
+tools: [read, search, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
+
 argument-hint: "Answer draft or note draft to review"
 ---
 

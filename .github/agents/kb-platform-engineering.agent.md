@@ -1,9 +1,9 @@
 ---
 description: "Expert on developer tooling, package management, SDK setup, automation, IDE workflows, repository conventions, developer experience, and platform engineering. Use for tooling and developer-platform KB work."
 name: kb-platform-engineering
-tools: [read, search, memory]
+tools: [read, search, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
+
 argument-hint: "Tooling, SDK, automation, or developer-platform question"
 ---
 

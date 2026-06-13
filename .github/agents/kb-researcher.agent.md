@@ -1,9 +1,9 @@
 ---
 description: "Research current software-engineering guidance, vendor documentation, framework behavior, and package changes. Use when a question depends on freshness, external sources, official docs, or missing vault coverage."
 name: kb-researcher
-tools: [read, search, web, memory]
+tools: [read, search, web, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
+
 argument-hint: "Research target, scope, and freshness concerns"
 ---
 

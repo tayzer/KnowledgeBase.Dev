@@ -1,9 +1,9 @@
 ---
 description: "Expert on DevOps, CI/CD, containers, deployment pipelines, release engineering, environment promotion, observability basics, and operational delivery. Use for delivery and operations KB work."
 name: kb-devops-delivery
-tools: [read, search, memory]
+tools: [read, search, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
+
 argument-hint: "DevOps, pipeline, deployment, or operations question"
 ---
 

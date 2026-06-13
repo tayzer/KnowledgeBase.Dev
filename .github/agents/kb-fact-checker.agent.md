@@ -1,9 +1,9 @@
 ---
 description: "Fact-check software-engineering claims, subagent findings, note drafts, and current-best-practice statements. Use when claims need support, correction, freshness validation, or conflict resolution."
 name: kb-fact-checker
-tools: [read, search, web, memory]
+tools: [read, search, web, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
+
 argument-hint: "Claims, draft text, or findings to verify"
 ---
 

@@ -1,9 +1,9 @@
 ---
 description: "Expert on C#, .NET, ASP.NET Core, Entity Framework, LINQ, nullable reference types, configuration, dependency injection, and .NET application guidance. Use for .NET- and C#-specific questions and KB work."
 name: kb-dotnet-csharp
-tools: [read, search, memory]
+tools: [read, search, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
+
 argument-hint: ".NET or C# question, framework detail, or note request"
 ---
 

@@ -1,9 +1,9 @@
 ---
 description: "Expert on game development, engine architecture, Unity, Godot-adjacent patterns, ECS, gameplay systems, asset pipelines, AI for games, and game-performance tradeoffs. Use for game-development KB work."
 name: kb-gamedev
-tools: [read, search, memory]
+tools: [read, search, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
+
 argument-hint: "Game-dev question, engine pattern, or gameplay-systems note request"
 ---
 

@@ -1,9 +1,8 @@
 ---
 description: "Coordinate software-engineering knowledge-base work. Use for answering software engineering questions, orchestrating subagents, curating markdown notes, researching fresh guidance, and returning a reviewed final answer."
 name: kb-coordinator
-tools: [read, search, edit, agent, web, todo, memory]
+tools: [read, search, edit, agent, web, todo, vscode/memory]
 agents: [kb-researcher, kb-fact-checker, kb-reviewer, kb-architecture-patterns, kb-coding-practices, kb-dotnet-csharp, kb-data-storage, kb-devops-delivery, kb-platform-engineering, kb-security-engineering, kb-testing-quality, kb-frontend-ui, kb-gamedev]
-model: "GPT-5 (copilot)"
 argument-hint: "Ask a software-engineering question or request a KB note or update"
 ---
 

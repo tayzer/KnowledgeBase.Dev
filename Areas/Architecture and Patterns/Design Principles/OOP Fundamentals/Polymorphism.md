@@ -127,32 +127,28 @@ decimal totalArea = shape1.Area() + shape2.Area();  // Calls the correct overrid
 
 ### Polymorphism and Dependency Injection
 
-Polymorphism is the backbone of DI:
+Polymorphism is the backbone of DI. The container picks the implementation from the registration at the composition root:
 
 ```csharp
 // Service depends on an abstraction, not a concrete type
-public class OrderProcessor
+public class CheckoutService
 {
-    private readonly ILogger _logger;
-    private readonly IPaymentService _paymentService;
-    
-    public OrderProcessor(ILogger logger, IPaymentService paymentService)
-    {
-        _logger = logger;
-        _paymentService = paymentService;
-    }
-    
-    public void Process(Order order)
-    {
-        _logger.Log($"Processing order {order.Id}");
-        _paymentService.Charge(order.Total);
-    }
+    private readonly IPaymentProcessor _processor;
+
+    public CheckoutService(IPaymentProcessor processor) => _processor = processor;
+
+    public void CompleteOrder(decimal total) => _processor.Process(total);
 }
 
-// Different implementations can be injected at runtime
-services.AddScoped<ILogger, ConsoleLogger>();
-services.AddScoped<IPaymentService, StripePaymentService>();
+// Composition root (Program.cs)
+var services = new ServiceCollection();
+services.AddScoped<IPaymentProcessor, StripePaymentService>();
+services.AddScoped<CheckoutService>();
+
+// The container injects StripePaymentService when it creates CheckoutService.
 ```
+
+**Key insight:** `CheckoutService` does not choose the implementation. The composition root registers one, and the container injects that concrete type when it builds the service. If you need multiple implementations, use a separate abstraction, keyed services, or `IEnumerable<IPaymentProcessor>` rather than resolving inside the class.
 
 ### Pitfall: Violating Liskov Substitution Principle (LSP)
 

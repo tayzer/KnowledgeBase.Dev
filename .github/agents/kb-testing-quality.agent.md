@@ -1,9 +1,9 @@
 ---
 description: "Expert on unit, integration, contract, and end-to-end testing, QA strategy, regression coverage, testability, verification workflows, and quality gates. Use for testing and quality KB work."
 name: kb-testing-quality
-tools: [read, search, memory]
+tools: [read, search, vscode/memory]
 user-invocable: false
-model: "GPT-5 (copilot)"
+
 argument-hint: "Testing question, validation request, or quality note request"
 ---
 
