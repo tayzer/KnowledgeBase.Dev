@@ -14,7 +14,7 @@ Tags: #design #architecture #solid #principles #ocp
 **Key Takeaways:**
 - ✅ Express variation through abstractions (interfaces, base classes, delegates).
 - ✅ Existing, tested code stays untouched when requirements grow.
-- ✅ The Strategy and Decorator patterns are direct implementations of OCP.
+- ✅ The [[Strategy]] and [[Decorator]] patterns are direct implementations of OCP.
 - ✅ OCP is only meaningful once variation is identified — don't abstract speculatively.
 
 **Code Snippet:**
@@ -69,12 +69,12 @@ Bertrand Meyer introduced OCP in *Object-Oriented Software Construction* (1988).
 The key insight is that you predict *axes of change* and protect against them with abstractions. A module can be open on one axis and closed on another.
 
 ### Common Patterns That Implement OCP
-| Pattern | How it applies OCP |
-|---|---|
-| Strategy | Swap algorithms without modifying the consumer |
-| Decorator | Add behaviour by wrapping, not touching the original |
-| Plugin / Provider model | Register new handlers without modifying the dispatcher |
-| Specification | Add new filter rules as new classes |
+| Pattern                 | How it applies OCP                                     |
+| ----------------------- | ------------------------------------------------------ |
+| [[Strategy]]            | Swap algorithms without modifying the consumer         |
+| [[Decorator]]           | Add behaviour by wrapping, not touching the original   |
+| [Plugin Pattern](../../V2/Design%20Patterns/Plugin%20Pattern.md) | Register new handlers without modifying the dispatcher |
+| [Specification Pattern](../../V2/Design%20Patterns/Specification%20Pattern.md) | Add new filter rules as new classes                    |
 
 ### Relationship to Other Principles
 - OCP depends on **DIP** — you can only close a module against change if it depends on abstractions, not concretions.

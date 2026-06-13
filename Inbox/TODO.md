@@ -9,3 +9,4 @@
 - [ ] Monorepos
 - [ ] Azure aspire
 - [ ] BDD, its creator Dan? How he wanted to take away from the word "test"
+- [ ] Composition over inheritance
