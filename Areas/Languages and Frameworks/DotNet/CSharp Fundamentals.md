@@ -27,6 +27,7 @@ Tags: #csharp #dotnet #fundamentals
 4. **Querying and transformation**: use LINQ once you understand source collection behavior and execution models.
 
 ### Core Foundations
+- [[Access Modifiers]] - Visibility boundaries for maintainable APIs and encapsulation.
 - [[NullableReferenceTypes]] - Null-safety contracts, annotations, and migration guidance.
 - [[GenericsConstraints]] - Type-safe reuse, constraints, and variance basics.
 - [[DelegatesEventsActions]] - Passing behavior, callbacks, and event-driven design at the language level.
@@ -47,6 +48,7 @@ Tags: #csharp #dotnet #fundamentals
 
 ## 🔗 Related Concepts
 - [[Languages and Frameworks]]
+- [[Access Modifiers]]
 - [[CollectionTypes]]
 - [[Linq]]
 - [[ConfigurationOptionsPattern]]

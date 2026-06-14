@@ -173,6 +173,7 @@ public class Dog : Animal
 ## 🔗 Related Concepts
 
 - [[Abstraction]] – Hides complexity; encapsulation hides internals.
+- [[Access Modifiers]] - C# visibility rules that enforce encapsulation boundaries.
 - [[Inheritance]] – Uses `protected` for controlled base class access.
 - [[Polymorphism]] – Relies on encapsulation to allow safe substitution.
 - [[SOLID|DIP]] – Encapsulation supports depending on abstractions, not implementations.
