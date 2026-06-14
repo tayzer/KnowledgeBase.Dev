@@ -28,6 +28,9 @@ Relational databases are best known for tables, relationships, schema management
 - Choose based on feature depth: extensions, indexing, JSON support, replication, and analytics needs.
 - Choose based on workload shape: OLTP-heavy applications, mixed transactional/reporting, or enterprise-grade requirements.
 
+### Foundations
+- [[SQL Joins and Indexes]] - Practical reference for join strategy, indexing fundamentals, and query tuning workflow.
+
 ### Child Notes
 - [[MySQL]] - Common default for straightforward web applications and transactional workloads.
 - [[PostgreSQL]] - Feature-rich and extensible option for teams that want strong SQL support and advanced capabilities.
