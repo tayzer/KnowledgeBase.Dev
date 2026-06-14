@@ -57,5 +57,9 @@ Clean Architecture organizes code so the most important business rules sit at th
 1. Take a controller that mixes validation, business rules, and persistence, then separate it into presentation, application, and infrastructure responsibilities.
 2. Identify one place in a current project where a framework type leaks into core logic and describe how to move that dependency outward.
 
+## 📝 Personal Notes
+
+I like clean architecture, I have tons of experience when a project would have benefited from this approach. Situations when another product wants to implement the same business rules and now you have to seperate them or end up with duplicated logic, more than one place to change. Another example is when you want to change platform/infrastructure, moving from cloud providers, clean architecture can help ensure a separation of the core app/domain logic for an easier transition.
+
 ## 🔄 Review Schedule
 - [ ] Review in 3 months
