@@ -26,8 +26,11 @@ Tags: #taxonomy #languages #frameworks #platforms
 - Prefer notes that explain practical implementation tradeoffs.
 - Link architecture patterns instead of duplicating them.
 
+### Platform Hubs
+- [[CSharp Fundamentals]] - Starting point for core C# and .NET language/runtime topics.
+
 ### Current Migration Sources
-- `Areas/DotNet/`
+- `Areas/Languages and Frameworks/DotNet/`
 
 ## 🔗 Related Concepts
 - [[Architecture and Patterns]]

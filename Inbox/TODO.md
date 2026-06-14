@@ -11,3 +11,4 @@
 - [ ] BDD, its creator Dan? How he wanted to take away from the word "test"
 - [ ] Composition over inheritance
 - [ ] Event sourcing, CRUD, Idempotency
+- [ ] Categories for Data and State, e.g. relational

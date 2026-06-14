@@ -1,5 +1,5 @@
 # LINQ (Language Integrated Query)
-Date: 2025-11-25
+Date: 2026-06-14
 Status: 🟢 Current
 Tags: #csharp #dotnet #linq #functional-programming #performance
 
@@ -15,9 +15,10 @@ Tags: #csharp #dotnet #linq #functional-programming #performance
 
 **Key Takeaways:**
 - ✅ **Deferred Execution:** Most operators (Where, Select) don't execute until you iterate (foreach, ToList).
-- ✅ **IQueryable vs IEnumerable:** `IQueryable` executes on the server (SQL), `IEnumerable` executes in memory.
+- ✅ **IQueryable vs IEnumerable:** `IQueryable` can be translated by a provider before execution, while `IEnumerable` runs against in-memory or iterator-based sequences.
+- ✅ **Execution model matters:** `IAsyncEnumerable<T>` streams results asynchronously instead of materializing everything first.
 - ⚡ **Performance:** Be careful with `ToList()` too early; it pulls everything into memory.
-- 🔒 **Immutability:** LINQ operations do not modify the source collection; they return a new sequence.
+- 🔒 **Non-mutating pipelines:** LINQ operations do not modify the source collection; they produce a new sequence definition or result.
 
 **Code Snippet:**
 ```csharp
@@ -33,8 +34,9 @@ var activeUsers = users
 
 **Gotchas:**
 - ⚠️ **Multiple Enumeration:** Iterating a LINQ query twice (e.g., `Count()` then `foreach`) re-executes the query logic. Use `ToList()` or `ToArray()` to materialize if needed multiple times.
-- ⚠️ **Capturing Variables:** Be aware of closure semantics in loops when using lambdas (though fixed in recent C# versions, still good to know).
+- ⚠️ **Capturing Variables:** Be aware of closure semantics when lambdas capture changing variables from surrounding code.
 - ⚠️ **Client-side Evaluation:** In EF Core, some LINQ methods cannot be translated to SQL and will throw or pull data locally (implicit client eval is disabled in modern EF Core).
+- ⚠️ **Hot paths:** LINQ readability is often worth it, but tight loops can pay measurable delegate, iterator, and allocation costs.
 
 ---
 
@@ -45,6 +47,13 @@ LINQ brings functional programming concepts to C#. It treats data manipulation a
 - **Declarative:** You say *what* you want (`Where(x => x > 5)`), not *how* to get it (loops).
 - **Type Safety:** Compile-time checking of queries.
 - **Standard Query Operators:** A set of extension methods on `IEnumerable<T>` and `IQueryable<T>`.
+
+### Execution Models
+- **`IEnumerable<T>`:** in-memory or iterator-based pipelines evaluated during enumeration.
+- **`IQueryable<T>`:** provider-backed queries where expression trees can be translated, for example into SQL.
+- **`IAsyncEnumerable<T>`:** asynchronous streaming for results that arrive over time rather than all at once.
+
+Knowing which model you are working with matters more than the surface syntax.
 
 ### Implementation Details
 
@@ -85,11 +94,18 @@ foreach (var n in query)
 }
 ```
 
+#### Operator Choice Patterns
+- Use `Select` to transform one item into one result item.
+- Use `SelectMany` to flatten nested collections.
+- Use `Any()` for existence checks and short-circuit behavior.
+- Use `GroupBy` carefully because grouping can hold significant data in memory.
+- Use `Distinct`, `Intersect`, `Except`, and `Union` with awareness of equality semantics.
+
 ### Performance Considerations
 
 1.  **Materialization:** Avoid `ToList()` until the very end of the chain.
 2.  **Filtering:** Filter (`Where`) as early as possible to reduce the dataset size.
-3.  **Any() vs Count():** Use `Any()` to check for existence. `Count() > 0` iterates the entire collection.
+3.  **Any() vs Count():** Use `Any()` when you only care whether at least one item exists. It communicates intent and can short-circuit.
     ```csharp
     // ❌ Bad
     if (users.Count() > 0) { ... }
@@ -97,16 +113,15 @@ foreach (var n in query)
     // ✅ Good
     if (users.Any()) { ... }
     ```
-4.  **Structs vs Classes:** LINQ involves delegate allocations. For extremely hot paths in game loops or high-frequency trading, manual `foreach` loops might be faster (zero allocation).
+4.  **Translation boundaries:** With `IQueryable<T>`, not every method can be translated by the provider. Know when execution switches from server-side to client-side.
+5.  **Hot paths:** LINQ involves iterator and delegate overhead. For extremely hot paths, a plain `for` or `foreach` loop may be the better choice after profiling.
 
 ### Comparison with Alternatives
+- **LINQ:** best when clarity, composability, and transformation pipelines matter most.
+- **`foreach` loop:** often easier to debug step-by-step and a good middle ground for custom logic.
+- **`for` loop:** useful when index control, in-place updates, or very hot paths matter.
 
-| Feature | LINQ | `foreach` Loop | `for` Loop |
-| :--- | :--- | :--- | :--- |
-| **Readability** | ⭐⭐⭐⭐⭐ (High) | ⭐⭐⭐ (Medium) | ⭐⭐ (Low) |
-| **Maintainability** | ⭐⭐⭐⭐⭐ (High) | ⭐⭐⭐ (Medium) | ⭐⭐ (Low) |
-| **Performance** | ⭐⭐⭐ (Good) | ⭐⭐⭐⭐ (Better) | ⭐⭐⭐⭐⭐ (Best) |
-| **Debugging** | ⭐⭐ (Harder) | ⭐⭐⭐⭐ (Easy) | ⭐⭐⭐⭐ (Easy) |
+Pick based on the real constraint: readability, provider translation, allocation pressure, or tight-loop performance.
 
 ### Real-World Example: Data Transformation Pipeline
 
@@ -139,6 +154,7 @@ public class OrderProcessor
 - [[GenericsConstraints]] - LINQ relies heavily on generics.
 - [[DelegatesEventsActions]] - `Func<T, bool>` predicates are the backbone of LINQ.
 - [[ExpressionBodiedMembers]] - Often used with LINQ selectors.
+- [[CollectionTypes]] - Source collection choice affects evaluation, materialization, and performance.
 - [[EntityFramework/QueryOptimisations]] - LINQ to SQL translation.
 
 ## 📖 Resources
@@ -156,4 +172,4 @@ public class OrderProcessor
 <!-- Add your own observations, project-specific snippets, or "aha!" moments here -->
 
 ## 🔄 Review Schedule
-- [ ] Review in 3 months (Check for .NET 9/10 updates like `CountBy`, `AggregateBy`)
+- [ ] Review in 3 months
