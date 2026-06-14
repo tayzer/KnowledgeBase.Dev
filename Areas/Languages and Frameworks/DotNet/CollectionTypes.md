@@ -32,6 +32,11 @@ Tags: #csharp #dotnet #collections #performance #api-design
 - **`LinkedList<T>`:** rare specialized cases with node-based insertion/removal.
 - **`IReadOnlyList<T>` / `IEnumerable<T>`:** API contracts, not storage choices.
 
+### Deep-Dive Notes
+- [[List]] - Growth, capacity planning, API design, and common performance pitfalls.
+- [[Dictionary]] - Key semantics, comparer choices, and lookup-centric design.
+- [[HashSet]] - Uniqueness, membership checks, and practical set operations.
+
 ### Mental Model
 Most collection decisions are driven by three questions:
 - What shape is the data: sequence, map, set, queue, or stack?
