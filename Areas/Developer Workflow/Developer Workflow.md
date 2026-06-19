@@ -30,6 +30,12 @@ Tags: #taxonomy #developer-workflow #engineering-practices #source-control
 - `Areas/SourceControl/`
 - `Areas/CodingPractices/` (non-testing content)
 
+### Cross-Cutting Approaches
+- [[Engineering Approaches]]
+- [[Test-Driven Development]]
+- [[Behavior-Driven Development]]
+- [[Fitness-Function Driven Development]]
+
 ## 🔗 Related Concepts
 - [[Testing and Quality]]
 - [[Languages and Frameworks]]

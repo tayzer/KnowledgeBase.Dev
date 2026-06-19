@@ -29,6 +29,10 @@ Tags: #taxonomy #architecture #patterns #design
 ### Current Migration Sources
 - `Areas/Patterns/`
 
+### Cross-Cutting Approaches
+- [[Areas/Architecture and Patterns/Domain-Driven Design/Domain-Driven Design|Domain-Driven Design]]
+- [[Areas/Developer Workflow/Fitness-Function Driven Development|Fitness-Function Driven Development]]
+
 ## 🔗 Related Concepts
 - [[Languages and Frameworks]]
 - [[Data and State]]

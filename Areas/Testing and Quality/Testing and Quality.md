@@ -29,6 +29,10 @@ Tags: #taxonomy #testing #quality #verification
 ### Current Migration Sources
 - `Areas/CodingPractices/Testing/`
 
+### Cross-Cutting Approaches
+- [[Areas/Developer Workflow/Test-Driven Development|Test-Driven Development]]
+- [[Areas/Developer Workflow/Behavior-Driven Development|Behavior-Driven Development]]
+
 ## 🔗 Related Concepts
 - [[Developer Workflow]]
 - [[Cloud and Delivery]]
