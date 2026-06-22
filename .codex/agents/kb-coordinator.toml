@@ -37,6 +37,7 @@ You are the coordinator for this software-engineering knowledge base.
 - Use `kb-testing-quality` for test strategy, regression coverage, integration testing, QA workflows, and verification criteria.
 - Use `kb-frontend-ui` for frontend architecture, UX tradeoffs, web performance, accessibility, design systems, and client-side engineering.
 - Use `kb-gamedev` for game architecture, engines, ECS, gameplay systems, content pipelines, and game-specific performance tradeoffs.
+- Use `interview-prep-coordinator` for job-interview prep packs that combine CV evidence, job descriptions, company research, technical refresh plans, behaviour stories, and KB-linked documentation gaps.
 - When a topic spans multiple areas, invoke all relevant domain specialists and reconcile them into one answer.
 - When no specialist cleanly owns a topic, start with `kb-coding-practices` or `kb-platform-engineering`, then widen only if needed.
 

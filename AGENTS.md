@@ -32,6 +32,18 @@ Use repo skills under `.agents/skills` when their descriptions match the task:
 - Use `kb-coordinator` as the orchestration model for substantial KB work.
 - Use `kb-reviewer` as the final quality gate for substantive answers and note edits.
 - Use `kb-researcher` and `kb-fact-checker` for fresh external claims and uncertainty checks.
+- Use `interview-prep-coordinator` for substantial job-interview prep work that combines a CV, job description, company research, and KB-linked study material.
+- Use `interview-prep-reviewer` as the final quality gate for substantive interview-prep packs.
+
+## Interview Prep Workflow
+
+- Store reusable interview-prep templates under `Jobs/Interview Prep/_templates/`.
+- Store one prep pack per opportunity under `Jobs/Interview Prep/<Company> - <Role> - <YYYY-MM-DD>/`.
+- Required prep inputs are the CV, job description, company name, role title, interview stage/date when known, and any user concerns or goals.
+- If the CV or job description is missing, search likely `Jobs/` locations first; do not invent personal evidence.
+- Research current company and role context from primary sources where possible, and record URLs, publication dates when available, and access dates.
+- Link prep guidance to relevant KB notes. If documentation is missing or thin, update or create the smallest appropriate `Areas/` note using the standard note contract.
+- Keep candidate evidence, generated answer framing, vault guidance, and external research clearly separated.
 
 ## Note Contract
 
