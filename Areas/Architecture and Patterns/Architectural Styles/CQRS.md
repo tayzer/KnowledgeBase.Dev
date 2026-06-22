@@ -114,6 +114,7 @@ During step 3 to 4, dashboard data may be briefly stale.
 ## 🔗 Related Concepts
 - [[CleanArchitecture]]
 - [[EventDriven]]
+- [[Materialized Read Model]]
 - [[Monolith]]
 - [[Microservices]]
 - [[Repository]]

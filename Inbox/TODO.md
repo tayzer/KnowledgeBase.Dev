@@ -13,6 +13,8 @@
 - [ ] Event sourcing, CRUD, Idempotency
 - [ ] Categories for Data and State, e.g. relational
 
+Please review the files that are not following this next approach to:
+
 Architecture and Patterns
 
 1. Architectural Styles
@@ -93,3 +95,11 @@ Architecture and Patterns
 11. Case Studies / Real-World Examples
 - Company architecture write-ups
 - Personal project architecture decisions (ADRs)
+
+
+---
+
+Materialized Read Model
+Hashset
+Pipes and filters
+Ephemeral environments
