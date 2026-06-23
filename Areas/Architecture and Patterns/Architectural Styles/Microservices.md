@@ -44,7 +44,7 @@ Microservices trade simplicity for organizational and operational independence. 
 - [[Monolith]]
 - [[Service Based Architecture]]
 - [[ServiceCommunication]]
-- [[EventDriven]]
+- [[Event Driven]]
 
 ## 📖 Resources
 - Martin Fowler: Microservices

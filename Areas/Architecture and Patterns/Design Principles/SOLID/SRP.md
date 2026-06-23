@@ -82,7 +82,7 @@ A useful heuristic: if you describe a class and need to use the word "and", it p
 - [[SOLID]]
 - [[OCP]]
 - [[DIP]]
-- [[CleanArchitecture]]
+- [[Clean Architecture]]
 - [[RepositoryUnitOfWork]]
 
 ## 📖 Resources

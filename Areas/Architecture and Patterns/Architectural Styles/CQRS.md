@@ -112,8 +112,8 @@ During step 3 to 4, dashboard data may be briefly stale.
 3. Define an acceptable freshness SLA for one projection (for example, 1 to 5 seconds) and describe how you would monitor it.
 
 ## 🔗 Related Concepts
-- [[CleanArchitecture]]
-- [[EventDriven]]
+- [[Clean Architecture]]
+- [[Event Driven]]
 - [[Materialized Read Model]]
 - [[Monolith]]
 - [[Microservices]]

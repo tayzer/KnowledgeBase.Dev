@@ -106,7 +106,7 @@ In Clean Architecture terms:
 - [[PropertyInjection]]
 - [[MethodInjection]]
 - [[ServiceLocator]]
-- [[CleanArchitecture]]
+- [[Clean Architecture]]
 
 ## 📖 Resources
 - Robert C. Martin — "The Dependency Inversion Principle" (objectmentor.com)

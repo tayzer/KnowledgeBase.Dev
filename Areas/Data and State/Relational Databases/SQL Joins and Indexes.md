@@ -141,7 +141,7 @@ WHERE YEAR(OrderDate) = 2026
 ## 🔗 Related Concepts
 - [[Relational Databases]]
 - [[NoSQL Databases]]
-- [[EntityFramework/QueryOptimisations]]
+- [[QueryOptimisations]]
 - [[Repository]]
 
 ## 📖 Resources

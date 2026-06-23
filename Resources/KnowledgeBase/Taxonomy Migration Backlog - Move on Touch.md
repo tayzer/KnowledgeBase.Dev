@@ -45,7 +45,7 @@ Tags: #knowledge-base #taxonomy #migration #backlog
 | P2 | AzureServicesOverview | `Areas/DevOps/AzureServicesOverview.md` | `Areas/Cloud and Delivery/` | Next content update or review pass |
 | P2 | PowerShellCliEssentials | `Areas/DevOps/PowerShellCliEssentials.md` | `Areas/Developer Workflow/` | Next content update or review pass |
 | P2 | SourceControl area notes | `Areas/SourceControl/` | `Areas/Developer Workflow/` | First source-control note touch |
-| P3 | EntityFramework notes | `Areas/Data Stores/EntityFramework/` | `Areas/Data and State/` | Next content update or review pass |
+| Done | Entity Framework notes | Legacy Data Stores EF notes | `Areas/Data and State/Data Access/Entity Framework/` | Reorganized during Data and State review on 2026-06-23 |
 | P3 | ThreadPool | `Areas/Patterns/Concurrency/ThreadPool.md` | `Areas/Architecture and Patterns/` | Next content update or review pass |
 | P3 | Async | `Areas/Patterns/Concurrency/Async.md` | `Areas/Architecture and Patterns/` | Next content update or review pass |
 

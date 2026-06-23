@@ -99,9 +99,9 @@ A materialized read model can be stored in cache infrastructure, but the pattern
 
 ## 🔗 Related Concepts
 - [[CQRS]]
-- [[EventDriven]]
+- [[Event Driven]]
 - [[Service Composition]]
-- [[CachingStrategies]]
+- [[Caching Strategies]]
 - [[ServiceCommunication]]
 
 ## 📖 Resources

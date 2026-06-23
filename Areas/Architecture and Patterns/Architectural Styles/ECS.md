@@ -114,7 +114,7 @@ In an RTS game with 5000 units:
 ---
 
 ## 🔗 Related Concepts
-- [[CleanArchitecture]] - Separation of concerns (Data vs Logic).
+- [[Clean Architecture]] - Separation of concerns (Data vs Logic).
 - [[Unity/Resources]] - Unity specific ECS (DOTS) resources.
 - [[Concurrency/ThreadPool]] - How ECS systems are often scheduled.
 

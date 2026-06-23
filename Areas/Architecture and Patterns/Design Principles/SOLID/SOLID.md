@@ -60,7 +60,7 @@ A class that violates SRP is usually hard to extend (OCP) because its responsibi
 - [ISP](ISP.md)
 - [DIP](DIP.md)
 - [[RepositoryUnitOfWork]]
-- [[CleanArchitecture]]
+- [[Clean Architecture]]
 - [[DependencyInjection]]
 
 ## 📖 Resources

@@ -18,7 +18,7 @@ Capture the idea that strong engineering systems use process and architecture co
 ## Candidate Related Notes
 - [[CodeReviewGuidelines]]
 - [[IntegrationTestingAspNet]]
-- [[CleanArchitecture]]
+- [[Clean Architecture]]
 - [[Mappers]]
 
 ## Next Step

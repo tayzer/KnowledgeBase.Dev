@@ -35,7 +35,7 @@ Tags: #mapping #maintainability #architecture #clean-code
 Keeping mappers small and deterministic makes them easier to unit test, easier to review, and less likely to become a dumping ground for logic that should be explicit elsewhere. In layered designs, this boundary also protects the application layer from reaching into infrastructure concerns through “just one small mapping shortcut.”
 
 ## 🔗 Related Concepts
-- [[CleanArchitecture]]
+- [[Clean Architecture]]
 - [[DependencyInjection]]
 
 ## 🔄 Review Schedule

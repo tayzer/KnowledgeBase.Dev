@@ -123,7 +123,7 @@ If the use case requires strong cross-service consistency, a synchronous composi
 ## 🔗 Related Concepts
 - [[ServiceCommunication]]
 - [[CQRS]]
-- [[EventDriven]]
+- [[Event Driven]]
 
 ## 🔄 Review Schedule
 - [ ] Review in 3 months

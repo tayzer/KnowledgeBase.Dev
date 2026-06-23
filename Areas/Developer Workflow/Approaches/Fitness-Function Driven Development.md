@@ -39,7 +39,7 @@ Tags: #fitness-functions #engineering-approach #workflow #architecture
 - https://www.thoughtworks.com/en-gb/insights/articles/fitness-function-driven-development
 ## 🔗 Related Concepts
 - [[Areas/Architecture and Patterns/Architectural Styles/Fitness-Function Driven Development|Architecture Navigation Stub]]
-- [[CleanArchitecture]]
+- [[Clean Architecture]]
 - [[Cloud and Delivery]]
 - [[Engineering Approaches]]
 

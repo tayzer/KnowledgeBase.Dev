@@ -46,7 +46,7 @@ var dtos = await _context.Orders
 ---
 
 ## 🔗 Related Concepts
-- [[EntityFramework/MemoryAllocations]]
+- [[MemoryAllocations]]
 - [[Linq]]
 - [[RepositoryUnitOfWork]]
 

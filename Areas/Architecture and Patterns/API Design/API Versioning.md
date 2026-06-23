@@ -45,7 +45,7 @@ services.AddApiVersioning(options => {
 ---
 
 ## 🔗 Related Concepts
-- [[ApiVersioning]] (this doc)
+- [[API Versioning]] (this doc)
 - [[CodeReviewGuidelines]]
 
 ## 📖 Resources

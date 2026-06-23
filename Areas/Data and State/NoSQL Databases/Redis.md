@@ -24,7 +24,7 @@ Tags: #redis #cache #inmemory #nosql
 ---
 
 ## 🔗 Related Concepts
-- [[CachingStrategies]]
+- [[Caching Strategies]]
 
 ## 📖 Resources
 - Redis docs

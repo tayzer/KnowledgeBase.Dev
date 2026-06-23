@@ -42,7 +42,7 @@ public class Service
 
 ## 🔗 Related Concepts
 - [[Repository]]
-- [[EntityFramework/QueryOptimisations]]
+- [[QueryOptimisations]]
 
 ## 📖 Resources
 - Patterns and Practices articles

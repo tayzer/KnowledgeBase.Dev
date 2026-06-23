@@ -155,7 +155,7 @@ public class OrderProcessor
 - [[DelegatesEventsActions]] - `Func<T, bool>` predicates are the backbone of LINQ.
 - [[ExpressionBodiedMembers]] - Often used with LINQ selectors.
 - [[CollectionTypes]] - Source collection choice affects evaluation, materialization, and performance.
-- [[EntityFramework/QueryOptimisations]] - LINQ to SQL translation.
+- [[QueryOptimisations]] - LINQ to SQL translation.
 
 ## 📖 Resources
 - [Microsoft Docs: LINQ (Language Integrated Query)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)

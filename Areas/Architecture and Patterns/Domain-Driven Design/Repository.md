@@ -125,8 +125,8 @@ public async Task<IEnumerable<T>> ListAsync(ISpecification<T> spec)
 
 ## 🔗 Related Concepts
 - [[RepositoryUnitOfWork]] - The combination of these two patterns.
-- [[CleanArchitecture]] - Repositories are the bridge between Core and Infrastructure.
-- [[EntityFramework/QueryOptimisations]] - How to write efficient queries inside repositories.
+- [[Clean Architecture]] - Repositories are the bridge between Core and Infrastructure.
+- [[QueryOptimisations]] - How to write efficient queries inside repositories.
 
 ## 📖 Resources
 - [Microsoft: Design the infrastructure persistence layer](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design)

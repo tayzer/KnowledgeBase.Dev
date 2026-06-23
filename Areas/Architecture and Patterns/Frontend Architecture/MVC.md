@@ -43,7 +43,7 @@ Tags: #mvc #architecture #web
 ## 🔗 Related Concepts
 - [[Repository]]
 - [[DependencyInjection]]
-- [[CleanArchitecture]]
+- [[Clean Architecture]]
 
 ## 📖 Resources
 - Microsoft Docs: ASP.NET Core MVC overview

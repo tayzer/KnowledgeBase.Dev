@@ -165,7 +165,7 @@ If performance is critical, profile whether a direct loop is clearer and faster 
 - [[CSharp Fundamentals]]
 - [[GenericsConstraints]]
 - [[NullableReferenceTypes]]
-- [[EntityFramework/MemoryAllocations]]
+- [[MemoryAllocations]]
 - [[Encapsulation]]
 
 ## 📖 Resources

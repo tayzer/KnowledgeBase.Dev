@@ -52,7 +52,7 @@ await foreach (var dto in _context.Users
 ---
 
 ## 🔗 Related Concepts
-- [[EntityFramework/QueryOptimisations]]
+- [[QueryOptimisations]]
 - [[Linq]]
 
 ## 📖 Resources
