@@ -48,10 +48,13 @@ public class OrdersService : Orders.OrdersBase
 
 ---
 
-## 🔗 Related Concepts
-- [[CQRSMediator]]
+## Related Concepts
+- [[Message-Driven Architecture]]
+- [[Event Driven]]
+- [[API Gateway Pattern]]
+- [[Service Mesh]]
+- [[Saga Pattern]]
 - [[AzureServicesOverview]]
-
 ## 📖 Resources
 - Microsoft docs: microservices communications
 - Patterns of Enterprise Application Architecture

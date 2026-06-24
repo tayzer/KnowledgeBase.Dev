@@ -120,10 +120,12 @@ If the use case requires strong cross-service consistency, a synchronous composi
 - The same report is requested frequently enough that a cached or precomputed read model would be simpler.
 - The composition layer is starting to duplicate canonical logic that belongs inside downstream domains.
 
-## 🔗 Related Concepts
+## Related Concepts
 - [[ServiceCommunication]]
+- [[API Gateway Pattern]]
+- [[Backend for Frontend]]
 - [[CQRS]]
 - [[Event Driven]]
-
+- [[Materialized Read Model]]
 ## 🔄 Review Schedule
 - [ ] Review in 3 months

@@ -36,10 +36,11 @@ Service-based architecture often sits between a classic monolith and microservic
 - Coordinated releases are often simpler than in microservices, but they reduce independence.
 - Service communication still needs explicit contracts, versioning discipline, and failure handling.
 
-## 🔗 Related Concepts
+## Related Concepts
 - [[Monolith]]
+- [[Modular Monolith]]
 - [[Microservices]]
-- [[ServiceCommunication]]
-
+- [[Service-Oriented Architecture]]
+- [[Distributed Monolith]]
 ## 🔄 Review Schedule
 - [ ] Review in 3 months

@@ -16,8 +16,12 @@ Tags: #architecture #event-driven #messaging
 
 ---
 
-## 🔗 Related Concepts
+## Related Concepts
+- [[Message-Driven Architecture]]
 - [[ServiceCommunication]]
-
+- [[Event Sourcing]]
+- [[CQRS]]
+- [[Saga Pattern]]
+- [[Stream Processing Architecture]]
 ## 🔄 Review Schedule
 - [ ] Review in 6 months

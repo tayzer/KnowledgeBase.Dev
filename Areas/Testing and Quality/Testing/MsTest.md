@@ -51,7 +51,7 @@ public class CalculatorTests
 
 ## 🔗 Related Concepts
 - [[IntegrationTestingAspNet]]
-- [[CodeReviewGuidelines]]
+- [[Code Review Guidelines]]
 
 ## 📖 Resources
 - Microsoft Docs: MSTest

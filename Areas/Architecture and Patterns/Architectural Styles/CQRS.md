@@ -111,15 +111,16 @@ During step 3 to 4, dashboard data may be briefly stale.
 2. Design one read projection for a dashboard screen and list exactly which fields are denormalized and why.
 3. Define an acceptable freshness SLA for one projection (for example, 1 to 5 seconds) and describe how you would monitor it.
 
-## 🔗 Related Concepts
+## Related Concepts
 - [[Clean Architecture]]
 - [[Event Driven]]
+- [[Event Sourcing]]
 - [[Materialized Read Model]]
+- [[Message-Driven Architecture]]
 - [[Monolith]]
 - [[Microservices]]
 - [[Repository]]
 - [[ServiceCommunication]]
-
 ## 📖 Resources
 - Martin Fowler: CQRS
 - Microsoft Docs: CQRS pattern

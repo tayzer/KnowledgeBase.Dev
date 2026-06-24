@@ -106,7 +106,7 @@ If a note is still exploratory rather than publishable, keep it out of `Areas/`.
 
 ## 🔗 Related Concepts
 - [[Resources/KnowledgeBase/Documentation Templates|Documentation Templates]]
-- [[CodeReviewGuidelines]]
+- [[Code Review Guidelines]]
 
 ## 📖 Resources
 - `.github/skills/kb-note-template/assets/note-template.md` for the agent-facing minimal template

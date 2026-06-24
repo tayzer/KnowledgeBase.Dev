@@ -170,7 +170,7 @@ Tags: #draft #tag1
 ## 📖 Resources
 - [[NullableReferenceTypes]]
 - [[Repository]]
-- [[CodeReviewGuidelines]]
+- [[Code Review Guidelines]]
 
 ## 🧪 Practice Exercises
 1. Create a new note from the reference template and compare it with an older note that does not follow the contract.

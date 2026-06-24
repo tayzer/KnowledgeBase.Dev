@@ -79,7 +79,7 @@ Use the template pack in `Jobs/Interview Prep/_templates/`:
 
 - [[Developer Workflow]]
 - [[Engineering Approaches]]
-- [[CodeReviewGuidelines]]
+- [[Code Review Guidelines]]
 - [[Areas/Cloud and Delivery/Azure Functions/Azure_Functions_Interview_Cheatsheet|Azure Functions Interview Cheatsheet]]
 
 ## Review Schedule

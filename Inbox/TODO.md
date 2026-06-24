@@ -5,7 +5,7 @@
 - [ ] Scientist.net
 - [ ] Contract testing
 - [ ] Containers, kubernates
-- [ ] Modular Monoliths
+- [x] Modular Monoliths - see [[Modular Monolith]]
 - [ ] Monorepos
 - [ ] Azure aspire
 - [ ] BDD, its creator Dan? How he wanted to take away from the word "test"
@@ -20,14 +20,14 @@ Architecture and Patterns
 1. Architectural Styles
 - Monolithic Architecture
 - Microservices
-- Service-Oriented Architecture (SOA)
+- Service-Oriented Architecture (SOA) - see [[Service-Oriented Architecture]]
 - Event-Driven Architecture
-- Serverless Architecture
+- Serverless Architecture - see [[Serverless Architecture]]
 - Layered (N-Tier) Architecture
 - Hexagonal / Ports & Adapters
 - Clean Architecture
 - CQRS
-- Event Sourcing
+- Event Sourcing - see [[Event Sourcing]]
 
 2. Design Principles
 - SOLID Principles
@@ -62,14 +62,14 @@ Architecture and Patterns
 - Database per Service vs Shared Database
 - Caching Strategies
 - Data Replication and Sharding
-- Saga Pattern / Distributed Transactions
+- Saga Pattern / Distributed Transactions - see [[Saga Pattern]]
 - Polyglot Persistence
 
 7. Integration & Messaging
 - Message Queues (RabbitMQ, Kafka, SQS)
 - Pub/Sub
-- API Gateways
-- Service Mesh
+- API Gateways - see [[API Gateway Pattern]]
+- Service Mesh - see [[Service Mesh]]
 
 8. Scalability & Resilience Patterns
 - Load Balancing
@@ -89,7 +89,7 @@ Architecture and Patterns
 - God Object
 - Spaghetti Code
 - Big Ball of Mud
-- Distributed Monolith
+- Distributed Monolith - see [[Distributed Monolith]]
 - Premature Optimization
 
 11. Case Studies / Real-World Examples

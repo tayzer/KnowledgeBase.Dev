@@ -40,12 +40,17 @@ Microservices trade simplicity for organizational and operational independence. 
 - Prefer automation and observability early; microservices without platform maturity usually amplify pain instead of reducing it.
 - Be deliberate about synchronous versus asynchronous communication and where eventual consistency is acceptable.
 
-## 🔗 Related Concepts
+## Related Concepts
 - [[Monolith]]
+- [[Modular Monolith]]
 - [[Service Based Architecture]]
+- [[Service-Oriented Architecture]]
 - [[ServiceCommunication]]
-- [[Event Driven]]
-
+- [[Message-Driven Architecture]]
+- [[Saga Pattern]]
+- [[API Gateway Pattern]]
+- [[Service Mesh]]
+- [[Distributed Monolith]]
 ## 📖 Resources
 - Martin Fowler: Microservices
 - Microsoft Docs: .NET microservices architecture guidance

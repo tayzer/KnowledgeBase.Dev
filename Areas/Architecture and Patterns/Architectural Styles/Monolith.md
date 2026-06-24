@@ -16,8 +16,10 @@ Tags: #architecture #monolith #design
 
 ---
 
-## 🔗 Related Concepts
+## Related Concepts
+- [[Modular Monolith]]
+- [[Service Based Architecture]]
 - [[Microservices]]
-
+- [[Distributed Monolith]]
 ## 🔄 Review Schedule
 - [ ] Review in 6 months

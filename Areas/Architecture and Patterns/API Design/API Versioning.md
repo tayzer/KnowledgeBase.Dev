@@ -46,7 +46,7 @@ services.AddApiVersioning(options => {
 
 ## 🔗 Related Concepts
 - [[API Versioning]] (this doc)
-- [[CodeReviewGuidelines]]
+- [[Code Review Guidelines]]
 
 ## 📖 Resources
 - Microsoft Docs: API versioning
