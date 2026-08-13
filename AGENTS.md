@@ -61,10 +61,10 @@ The TL;DR should include a definition, when to use the topic, and key takeaways.
 
 ## Taxonomy
 
-- Prefer the current top-level areas under `Areas/`: `Architecture and Patterns`, `Cloud and Delivery`, `Data and State`, `Developer Workflow`, `Domain Overlays`, `Languages and Frameworks`, `Operations and Reliability`, `Security`, and `Testing and Quality`.
-- If a topic spans areas, place it where the reader would look first and bridge adjacent concepts with wikilinks.
-- If a topic does not fit cleanly, propose the smallest viable extension under an existing area before creating a new top-level area.
-- During taxonomy migration, move notes only when touched or reviewed, and preserve backlink stability.
+- Use [[Resources/KnowledgeBase/Software Engineering Taxonomy|Software Engineering Taxonomy]] and [[Resources/KnowledgeBase/Taxonomy Rules|Taxonomy Rules]] as authoritative sources.
+- The 13 top-level areas are fixed. Give each concept one canonical home and bridge cross-cutting topics with wikilinks.
+- Use a leaf extension under the nearest approved category for a valid omitted topic; do not create a top-level area without explicit approval.
+- Use category `_Index.md` files for navigation. Planned topics stay plain text until a published note exists.
 
 ## Answer Quality
 

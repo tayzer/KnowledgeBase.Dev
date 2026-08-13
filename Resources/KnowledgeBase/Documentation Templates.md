@@ -168,8 +168,8 @@ Tags: #draft #tag1
 - [[Resources/KnowledgeBase/Documentation Standards|Documentation Standards]]
 
 ## 📖 Resources
-- [[NullableReferenceTypes]]
-- [[Repository]]
+- [[Areas/Languages, Runtimes and Frameworks/Languages/CSharp/Type System/Nullable Reference Types]]
+- [[Areas/Architecture and System Design/Domain-Driven Design/Tactical Design/Repository Pattern]]
 - [[Code Review Guidelines]]
 
 ## 🧪 Practice Exercises

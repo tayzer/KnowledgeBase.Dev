@@ -36,9 +36,10 @@
 - Keep changes incremental and scoped. Large restructures require an explicit rationale.
 
 ## Taxonomy
-- Prefer the existing top-level areas under `Areas/`.
-- If a topic does not fit cleanly, propose the smallest viable extension to the taxonomy instead of creating ad hoc folders.
-- Maintain consistent tags and cross-links with nearby notes.
+- Use `Resources/KnowledgeBase/Software Engineering Taxonomy.md` and `Resources/KnowledgeBase/Taxonomy Rules.md` as authoritative.
+- Keep the 13 approved top-level areas fixed. Give every concept one canonical home and link adjacent concerns.
+- Add a documented leaf extension only when a valid topic is absent from the approved model; never create ad hoc top-level areas.
+- Category `_Index.md` files are navigation maps. Maintain qualified index links, tags, and adjacent cross-links.
 
 ## Answer Quality
 - Final answers should be clear, technically specific, and explicit about confidence.

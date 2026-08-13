@@ -1,0 +1,36 @@
+﻿# Architectural Styles
+Date: 2026-08-13
+Status: Needs Review
+Tags: #taxonomy #architectural-styles
+
+## TL;DR / Quick Reference
+
+**Definition:** Navigation index for Architectural Styles within this software-engineering body of knowledge.
+
+**When to use:**
+- Start here when locating a topic in this discipline.
+
+**Key Takeaways:**
+- This index routes published notes and child categories.
+- Planned coverage is a roadmap, not a set of placeholder notes.
+
+## Deep Dive
+
+### Available Notes and Categories
+- No published child category yet.
+
+### Planned Coverage
+- Layered Architectures
+- Modular Monoliths
+- Ports and Adapters
+- Clean Architecture
+- Service-Oriented Architecture
+- Microservices
+- Event-Driven Architecture
+- Data-Centric Architectures
+
+## Related Concepts
+- [[Areas/_Index|Software Engineering Knowledge Base]]
+
+## Review Schedule
+- [ ] Review when a planned topic becomes a published note.

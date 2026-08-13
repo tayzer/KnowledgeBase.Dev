@@ -11,7 +11,7 @@
 - [ ] BDD, its creator Dan? How he wanted to take away from the word "test"
 - [ ] Composition over inheritance
 - [ ] Event sourcing, CRUD, Idempotency
-- [ ] Categories for Data and State, e.g. relational
+- [x] Reshape Data and State into Data Systems and Application State; add DDIA-shaped storage taxonomy
 
 Please review the files that are not following this next approach to:
 
@@ -42,7 +42,7 @@ Architecture and Patterns
 - Creational (Singleton, Factory, Builder, Prototype, Abstract Factory)
 - Structural (Adapter, Decorator, Facade, Proxy, Composite, Bridge)
 - Behavioral (Observer, Strategy, Command, State, Iterator, Mediator, Chain of Responsibility)
-- Concurrency Patterns (Producer-Consumer, Thread Pool, Future/Promise)
+- [x] Concurrency Patterns (Producer-Consumer, Thread Pool, Future/Promise) - see [[Areas/Foundations/Concurrency and Parallelism/Concurrent Patterns/Concurrency Patterns Overview]]
 
 4. Domain-Driven Design
 - Bounded Contexts
@@ -103,3 +103,7 @@ Materialized Read Model
 Hashset
 Pipes and filters
 Ephemeral environments
+
+Add IDL section, like openapi.
+
+Add database types like b trees, lsm trees, really overhaul this section because its not that suitable to what data/storage is

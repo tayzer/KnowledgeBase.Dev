@@ -1,6 +1,6 @@
 # Engineering Guardrails
 Date: 2026-04-30
-Status: 🟡 Needs Review
+Status: ðŸŸ¡ Needs Review
 Tags: #draft #engineering #process #architecture
 
 ## Goal
@@ -13,11 +13,11 @@ Capture the idea that strong engineering systems use process and architecture co
 
 ## Open Questions
 - Should this become a Coding Practices note, a DevOps note, or a cross-cutting architecture note?
-- Is the right scope “engineering guardrails,” or should this split into process guardrails and architecture guardrails?
+- Is the right scope â€œengineering guardrails,â€ or should this split into process guardrails and architecture guardrails?
 
 ## Candidate Related Notes
 - [[Code Review Guidelines]]
-- [[IntegrationTestingAspNet]]
+- [[Areas/Languages, Runtimes and Frameworks/Frameworks and Platforms/DotNET/ASP.NET Core/APIs/ASP.NET Core Integration Testing]]
 - [[Clean Architecture]]
 - [[Mappers]]
 

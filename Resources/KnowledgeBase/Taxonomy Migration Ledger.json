@@ -1,0 +1,866 @@
+﻿[
+    {
+        "Source":  "Areas/Application State/Application State.md",
+        "Destination":  "Areas/State, Coordination and Workflows/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architecture and Patterns.md",
+        "Destination":  "Areas/Architecture and System Design/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Anti-Patterns/Distributed Monolith.md",
+        "Destination":  "Areas/Architecture and System Design/Architecture Fundamentals/Distributed Monolith.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Anti-Patterns/ServiceLocator.md",
+        "Destination":  "Areas/Architecture and System Design/Architecture Fundamentals/Service Locator.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/API Design/API Versioning.md",
+        "Destination":  "Areas/Application Development/API Design/API Versioning.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/Actor Model.md",
+        "Destination":  "Areas/Architecture and System Design/Distributed Systems/Distributed Computation/Actor Model.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/Cell-Based Architecture.md",
+        "Destination":  "Areas/Architecture and System Design/Architectural Styles/Cell-Based Architecture.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/Clean Architecture.md",
+        "Destination":  "Areas/Architecture and System Design/Architectural Styles/Clean Architecture.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/CQRS.md",
+        "Destination":  "Areas/Architecture and System Design/Domain-Driven Design/DDD and Architecture/CQRS.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/ECS.md",
+        "Destination":  "Areas/Domains and Specialisms/Game Development/Game Architecture/Entity Component System.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/Event Driven.md",
+        "Destination":  "Areas/Architecture and System Design/Integration and Messaging/Event-Driven Integration/Event-Driven Architecture.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/Message-Driven Architecture.md",
+        "Destination":  "Areas/Architecture and System Design/Integration and Messaging/Integration Styles/Message-Driven Architecture.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/Microservices.md",
+        "Destination":  "Areas/Architecture and System Design/Architectural Styles/Microservices.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/Modular Monolith.md",
+        "Destination":  "Areas/Architecture and System Design/Architectural Styles/Modular Monolith.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/Monolith.md",
+        "Destination":  "Areas/Architecture and System Design/Architectural Styles/Layered Architectures/Monolith.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/Serverless Architecture.md",
+        "Destination":  "Areas/Cloud and Platform Engineering/Serverless/Serverless Architecture.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/Service Based Architecture.md",
+        "Destination":  "Areas/Architecture and System Design/Architectural Styles/Service-Oriented Architecture/Service-Based Architecture.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/Service-Oriented Architecture.md",
+        "Destination":  "Areas/Architecture and System Design/Architectural Styles/Service-Oriented Architecture/Service-Oriented Architecture.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Architectural Styles/Space-Based Architecture.md",
+        "Destination":  "Areas/Architecture and System Design/Architectural Styles/Space-Based Architecture.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Patterns/Decorator.md",
+        "Destination":  "Areas/Architecture and System Design/Design Patterns/Structural Patterns/Decorator.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Patterns/Plugin.md",
+        "Destination":  "Areas/Architecture and System Design/Design Patterns/Structural Patterns/Plugin.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Patterns/Specification.md",
+        "Destination":  "Areas/Architecture and System Design/Design Patterns/Enterprise Application Patterns/Specification.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Patterns/Strategy.md",
+        "Destination":  "Areas/Architecture and System Design/Design Patterns/Behavioural Patterns/Strategy.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Patterns/Template Method.md",
+        "Destination":  "Areas/Architecture and System Design/Design Patterns/Behavioural Patterns/Template Method.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Patterns/Concurrency Patterns/Async.md",
+        "Destination":  "Areas/Foundations/Concurrency and Parallelism/Asynchronous Programming/Async.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Patterns/Concurrency Patterns/Concurrency Patterns.md",
+        "Destination":  "Areas/Foundations/Concurrency and Parallelism/Concurrent Patterns/Concurrency Patterns Overview.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Patterns/Concurrency Patterns/Future and Promise.md",
+        "Destination":  "Areas/Foundations/Concurrency and Parallelism/Asynchronous Programming/Future and Promise.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Patterns/Concurrency Patterns/Producer-Consumer.md",
+        "Destination":  "Areas/Foundations/Concurrency and Parallelism/Concurrent Patterns/Producer-Consumer.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Patterns/Concurrency Patterns/ThreadPool.md",
+        "Destination":  "Areas/Foundations/Concurrency and Parallelism/Concurrent Patterns/Thread Pool.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/Composition Over Inheritance.md",
+        "Destination":  "Areas/Foundations/Programming Concepts/Composition and Reuse/Composition Over Inheritance.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/Dependency Injection/DependencyInjection.md",
+        "Destination":  "Areas/Application Development/Backend Engineering/Dependency Injection.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/Dependency Injection/Injection Techniques/ConstructorInjection.md",
+        "Destination":  "Areas/Application Development/Backend Engineering/Constructor Injection.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/Dependency Injection/Injection Techniques/MethodInjection.md",
+        "Destination":  "Areas/Application Development/Backend Engineering/Method Injection.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/Dependency Injection/Injection Techniques/PropertyInjection.md",
+        "Destination":  "Areas/Application Development/Backend Engineering/Property Injection.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/Dependency Injection/Lifetimes/ScopedLifetime.md",
+        "Destination":  "Areas/Application Development/Backend Engineering/Dependency Injection/Scoped Lifetime.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/Dependency Injection/Lifetimes/SingletonLifetime.md",
+        "Destination":  "Areas/Application Development/Backend Engineering/Dependency Injection/Singleton Lifetime.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/Dependency Injection/Lifetimes/TransientLifetime.md",
+        "Destination":  "Areas/Application Development/Backend Engineering/Dependency Injection/Transient Lifetime.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/OOP Fundamentals/Abstraction.md",
+        "Destination":  "Areas/Foundations/Programming Concepts/Abstraction and Modularity/Abstraction.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/OOP Fundamentals/Encapsulation.md",
+        "Destination":  "Areas/Foundations/Programming Concepts/Abstraction and Modularity/Encapsulation.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/OOP Fundamentals/Inheritance.md",
+        "Destination":  "Areas/Foundations/Programming Concepts/Programming Paradigms/Inheritance.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/OOP Fundamentals/OOP Fundamentals.md",
+        "Destination":  "Areas/Foundations/Programming Concepts/Programming Paradigms/Object-Oriented Programming Overview.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/OOP Fundamentals/Polymorphism.md",
+        "Destination":  "Areas/Foundations/Programming Concepts/Programming Paradigms/Polymorphism.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/SOLID/DIP.md",
+        "Destination":  "Areas/Engineering Practice/Code Design and Construction/Dependency Inversion Principle.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/SOLID/ISP.md",
+        "Destination":  "Areas/Engineering Practice/Code Design and Construction/Interface Segregation Principle.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/SOLID/LSP.md",
+        "Destination":  "Areas/Engineering Practice/Code Design and Construction/Liskov Substitution Principle.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/SOLID/OCP.md",
+        "Destination":  "Areas/Engineering Practice/Code Design and Construction/Open-Closed Principle.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/SOLID/SOLID.md",
+        "Destination":  "Areas/Engineering Practice/Code Design and Construction/SOLID Principles.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Design Principles/SOLID/SRP.md",
+        "Destination":  "Areas/Engineering Practice/Code Design and Construction/Single Responsibility Principle.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Domain-Driven Design/Domain-Driven Design.md",
+        "Destination":  "Areas/Architecture and System Design/Domain-Driven Design/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Domain-Driven Design/Repository.md",
+        "Destination":  "Areas/Architecture and System Design/Domain-Driven Design/Tactical Design/Repository Pattern.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Domain-Driven Design/RepositoryUnitOfWork.md",
+        "Destination":  "Areas/Data Systems/Data Access/Unit of Work.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Frontend Architecture/MVC.md",
+        "Destination":  "Areas/Application Development/Frontend and UX Engineering/UI Composition/Model-View-Controller.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Integration and Messaging/API Gateway Pattern.md",
+        "Destination":  "Areas/Architecture and System Design/Integration and Messaging/Integration Styles/API Gateway Pattern.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Integration and Messaging/Backend for Frontend.md",
+        "Destination":  "Areas/Architecture and System Design/Integration and Messaging/Integration Styles/Backend for Frontend.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Integration and Messaging/Saga Pattern.md",
+        "Destination":  "Areas/State, Coordination and Workflows/Workflow and Long-Running Processes/Sagas/Saga Pattern.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Integration and Messaging/Service Communication.md",
+        "Destination":  "Areas/Architecture and System Design/Integration and Messaging/Integration Styles/Service Communication.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Integration and Messaging/Service Composition.md",
+        "Destination":  "Areas/Architecture and System Design/System Design/Component Design/Service Composition.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Architecture and Patterns/Integration and Messaging/Service Mesh.md",
+        "Destination":  "Areas/Cloud and Platform Engineering/Platform Engineering/Service Mesh.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Cloud and Delivery/AzureServicesOverview.md",
+        "Destination":  "Areas/Cloud and Platform Engineering/Cloud Platforms/Azure/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Cloud and Delivery/Cloud and Delivery.md",
+        "Destination":  "Areas/Cloud and Platform Engineering/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Cloud and Delivery/DockerDotNet.md",
+        "Destination":  "Areas/Cloud and Platform Engineering/Containers and Orchestration/Containers/Docker and .NET.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Cloud and Delivery/Azure Functions/Azure Functions.md",
+        "Destination":  "Areas/Cloud and Platform Engineering/Cloud Platforms/Azure/Compute/Azure Functions.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Cloud and Delivery/Azure Functions/Azure_Functions_Interview_Cheatsheet.md",
+        "Destination":  "Inbox/Azure Functions Interview Cheat Sheet.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Cloud and Delivery/Azure Functions/Azurite_Cheatsheet.md",
+        "Destination":  "Areas/Cloud and Platform Engineering/Cloud Platforms/Azure/Storage/Azurite.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Cloud and Delivery/Azure Messaging/Azure Event Grid.md",
+        "Destination":  "Areas/Cloud and Platform Engineering/Cloud Platforms/Azure/Messaging/Azure Event Grid.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Cloud and Delivery/Azure Messaging/Azure Event Hubs.md",
+        "Destination":  "Areas/Cloud and Platform Engineering/Cloud Platforms/Azure/Messaging/Azure Event Hubs.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Cloud and Delivery/Azure Messaging/Azure Messaging Service Selection.md",
+        "Destination":  "Areas/Cloud and Platform Engineering/Cloud Platforms/Azure/Messaging/Azure Messaging Service Selection.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Cloud and Delivery/Azure Messaging/Azure Queue Storage.md",
+        "Destination":  "Areas/Cloud and Platform Engineering/Cloud Platforms/Azure/Messaging/Azure Queue Storage.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Cloud and Delivery/Azure Messaging/Azure Service Bus.md",
+        "Destination":  "Areas/Cloud and Platform Engineering/Cloud Platforms/Azure/Messaging/Azure Service Bus.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Data and State/Data and State.md",
+        "Destination":  "Resources/KnowledgeBase/Data and State Migration Record.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Systems.md",
+        "Destination":  "Areas/Data Systems/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Access/Data Access.md",
+        "Destination":  "Areas/Data Systems/Data Access/Data Access.md",
+        "Action":  "merged",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Access/Entity Framework/MemoryAllocations.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Frameworks and Platforms/DotNET/Entity Framework Core/Performance/MemoryAllocations.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Access/Entity Framework/QueryOptimisations.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Frameworks and Platforms/DotNET/Entity Framework Core/Performance/QueryOptimisations.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Models and Query Languages/Data Modeling.md",
+        "Destination":  "Areas/Data Systems/Data Models and Query Languages/Data Modeling.md",
+        "Action":  "merged",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Models and Query Languages/NoSQL Databases.md",
+        "Destination":  "Areas/Data Systems/Data Models and Query Languages/NoSQL Databases.md",
+        "Action":  "merged",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Models and Query Languages/Relational Databases.md",
+        "Destination":  "Areas/Data Systems/Data Models and Query Languages/Relational Databases.md",
+        "Action":  "merged",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Models and Query Languages/SQL Joins and Indexes.md",
+        "Destination":  "Areas/Data Systems/Data Models and Query Languages/SQL Joins and Indexes.md",
+        "Action":  "merged",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Models and Query Languages/Non-Relational Systems/Cassandra.md",
+        "Destination":  "Areas/Data Systems/Database Technologies/Cassandra.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Models and Query Languages/Non-Relational Systems/MongoDB.md",
+        "Destination":  "Areas/Data Systems/Database Technologies/MongoDB.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Models and Query Languages/Non-Relational Systems/Redis.md",
+        "Destination":  "Areas/Data Systems/Database Technologies/Redis.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Models and Query Languages/Relational Systems/MySQL.md",
+        "Destination":  "Areas/Data Systems/Database Technologies/MySQL.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Models and Query Languages/Relational Systems/Oracle.md",
+        "Destination":  "Areas/Data Systems/Database Technologies/Oracle.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Data Models and Query Languages/Relational Systems/PostgreSQL.md",
+        "Destination":  "Areas/Data Systems/Database Technologies/PostgreSQL.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Derived Data and Analytics/Caching Strategies.md",
+        "Destination":  "Areas/Data Systems/Streaming and Derived Data/Caching Strategies.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Derived Data and Analytics/Data Lakes.md",
+        "Destination":  "Areas/Data Systems/Streaming and Derived Data/Data Lakes.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Derived Data and Analytics/Data Warehouses.md",
+        "Destination":  "Areas/Data Systems/Streaming and Derived Data/Data Warehouses.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Derived Data and Analytics/Event Sourcing.md",
+        "Destination":  "Areas/Data Systems/Streaming and Derived Data/Event Sourcing.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Derived Data and Analytics/Materialized Read Model.md",
+        "Destination":  "Areas/Data Systems/Streaming and Derived Data/Materialized Read Model.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Derived Data and Analytics/Stream Processing Architecture.md",
+        "Destination":  "Areas/Data Systems/Streaming and Derived Data/Stream Processing Architecture.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Derived Data and Analytics/Analytical Platforms/Amazon Redshift.md",
+        "Destination":  "Areas/Data Systems/Analytics and Data Processing/Amazon Redshift.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Derived Data and Analytics/Analytical Platforms/Google BigQuery.md",
+        "Destination":  "Areas/Data Systems/Analytics and Data Processing/Google BigQuery.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Derived Data and Analytics/Analytical Platforms/Snowflake.md",
+        "Destination":  "Areas/Data Systems/Analytics and Data Processing/Snowflake.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Distributed Systems and Consensus/Distributed Systems and Consensus.md",
+        "Destination":  "Areas/Architecture and System Design/Distributed Systems/Fundamentals/Distributed Systems and Consensus.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Data Systems/Encoding and Evolution/JSON.md",
+        "Destination":  "Areas/Data Systems/Encoding, Schemas and Evolution/JSON.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Data Systems/Encoding and Evolution/Schema Migrations.md",
+        "Destination":  "Areas/Data Systems/Encoding, Schemas and Evolution/Schema Migrations.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Replication and Partitioning/Replication and Partitioning.md",
+        "Destination":  "Areas/Data Systems/Replication and Partitioning/Replication and Partitioning.md",
+        "Action":  "merged",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Storage and Retrieval/B-Trees.md",
+        "Destination":  "Areas/Data Systems/Storage and Retrieval/B-Trees.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Data Systems/Storage and Retrieval/LSM Trees.md",
+        "Destination":  "Areas/Data Systems/Storage and Retrieval/LSM Trees.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Data Systems/Storage and Retrieval/Storage Engines.md",
+        "Destination":  "Areas/Data Systems/Storage and Retrieval/Storage Engines.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Data Systems/Storage and Retrieval/Object Storage/Amazon S3.md",
+        "Destination":  "Areas/Data Systems/Storage and Retrieval/Amazon S3.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Storage and Retrieval/Object Storage/Azure Blob Storage.md",
+        "Destination":  "Areas/Data Systems/Storage and Retrieval/Azure Blob Storage.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Storage and Retrieval/Object Storage/Cloud Storage Services.md",
+        "Destination":  "Areas/Data Systems/Storage and Retrieval/Cloud Storage Services.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Storage and Retrieval/Object Storage/Google Cloud Storage.md",
+        "Destination":  "Areas/Data Systems/Storage and Retrieval/Google Cloud Storage.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Transactions and Consistency/Consistency Models.md",
+        "Destination":  "Areas/Data Systems/Consistency/Consistency Models.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Data Systems/Transactions and Consistency/Transactions and Isolation Levels.md",
+        "Destination":  "Areas/Data Systems/Transactions and Concurrency/Transactions and Isolation Levels.md",
+        "Action":  "moved",
+        "PreExistingStaged":  true
+    },
+    {
+        "Source":  "Areas/Developer Workflow/AI-Assisted Development.md",
+        "Destination":  "Areas/Engineering Practice/Developer Tooling/AI-Assisted Development.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Developer Workflow/Code Review Guidelines.md",
+        "Destination":  "Areas/Engineering Practice/Code Review/Code Review Guidelines.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Developer Workflow/Coupling - 5 types.md",
+        "Destination":  "Areas/Engineering Practice/Maintainability and Code Health/Coupling.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Developer Workflow/Developer Workflow.md",
+        "Destination":  "Areas/Engineering Practice/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Developer Workflow/Engineering Approaches.md",
+        "Destination":  "Areas/Engineering Practice/Engineering Process/Engineering Approaches.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Developer Workflow/Interview Preparation Workflow.md",
+        "Destination":  "Resources/KnowledgeBase/Interview Preparation Workflow.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Developer Workflow/IOptions.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Frameworks and Platforms/DotNET/ASP.NET Core/Configuration/ASP.NET Core Options Pattern.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Developer Workflow/Laws.md",
+        "Destination":  "Areas/Engineering Practice/Professional Practice/Software Engineering Laws.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Developer Workflow/Mappers.md",
+        "Destination":  "Areas/Engineering Practice/Code Design and Construction/Mappers.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Developer Workflow/PowerShellCliEssentials.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/Shell and Scripting/PowerShell CLI Essentials.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Developer Workflow/Approaches/Behavior-Driven Development.md",
+        "Destination":  "Areas/Testing and Quality/Testing Fundamentals/Behavior-Driven Development.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Developer Workflow/Approaches/Fitness-Function Driven Development.md",
+        "Destination":  "Areas/Architecture and System Design/Architecture Decision Making/Architecture Fitness Functions.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Developer Workflow/Approaches/Test-Driven Development.md",
+        "Destination":  "Areas/Testing and Quality/Testing Fundamentals/Test-Driven Development.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Domain Overlays/Game Development Overlay.md",
+        "Destination":  "Areas/Domains and Specialisms/Game Development/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Domain Overlays/Web Development Overlay.md",
+        "Destination":  "Areas/Domains and Specialisms/Web Development/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Domain Overlays/Game Development/AI/Index.md",
+        "Destination":  "Areas/Domains and Specialisms/Game Development/Game AI.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Domain Overlays/Game Development/Unity/Resources.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Frameworks and Platforms/Game Frameworks/Unity Resources.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/Languages and Frameworks.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/Access Modifiers.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/CSharp/Language Fundamentals/Access Modifiers.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/CollectionTypes.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/CSharp/Type System/Collection Types.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/ConfigurationOptionsPattern.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Frameworks and Platforms/DotNET/ASP.NET Core/Configuration/ASP.NET Core Options Pattern.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/CSharp Fundamentals.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/CSharp/Language Fundamentals/CSharp Fundamentals.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/DelegatesEventsActions.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/CSharp/Language Fundamentals/Delegates, Events, and Actions.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/Dictionary.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/CSharp/Type System/Dictionary.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/ExpressionBodiedMembers.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/CSharp/Language Fundamentals/Expression-Bodied Members.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/GenericsConstraints.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/CSharp/Generics/Generic Constraints.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/HashSet.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/CSharp/Type System/HashSet.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/Immutable and Concurrent Collections.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/CSharp/Async and Concurrency/Immutable and Concurrent Collections.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/Linq.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/CSharp/LINQ/LINQ.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/List.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/CSharp/Type System/List.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/DotNet/NullableReferenceTypes.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/CSharp/Type System/Nullable Reference Types.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Languages and Frameworks/JavaScript/JavaScript Fundamentals.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Languages/JavaScript and TypeScript/JavaScript/JavaScript Fundamentals.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Operations and Reliability/Operations and Reliability.md",
+        "Destination":  "Areas/Reliability and Operations/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Security/Security.md",
+        "Destination":  "Areas/Security and Privacy/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Testing and Quality/Testing and Quality.md",
+        "Destination":  "Areas/Testing and Quality/_Index.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Testing and Quality/Testing/Integration Testing ASP.NET Core.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Frameworks and Platforms/DotNET/ASP.NET Core/APIs/ASP.NET Core Integration Testing.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Testing and Quality/Testing/IntegrationTestingAspNet.md",
+        "Destination":  "Areas/Languages, Runtimes and Frameworks/Frameworks and Platforms/DotNET/ASP.NET Core/APIs/ASP.NET Core Integration Testing.md",
+        "Action":  "merged",
+        "PreExistingStaged":  false
+    },
+    {
+        "Source":  "Areas/Testing and Quality/Testing/MsTest.md",
+        "Destination":  "Areas/Testing and Quality/Test Automation and Tooling/Test Runners/MSTest.md",
+        "Action":  "moved",
+        "PreExistingStaged":  false
+    }
+]
