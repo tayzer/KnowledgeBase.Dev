@@ -1,5 +1,15 @@
 # Knowledge Base Guidelines
 
+## Engineering changes in a consuming code repository
+- Understand the request, repository structure, analogous code, tests, configuration, and deployment path before changing code. The consuming repository is architectural authority.
+- Prefer correctness, security, reliability, maintainability, simplicity, testability, observability, relevant performance, cost awareness, then speed. Keep changes focused and compatible with public contracts unless a breaking change is required.
+- Do not blindly apply design patterns or architectural patterns. Prefer the simplest design that satisfies the requirements, fits the existing architecture, and is easy to change.
+- Do not introduce an abstraction merely because one might be useful in the future. Introduce abstractions in response to concrete duplication, boundaries, substitution requirements, testability needs, or clearly evidenced near-term requirements.
+- Use high cohesion, low coupling, explicit dependencies, separation of concerns, and composition where useful. Apply KISS, YAGNI, DRY, SOLID, and dependency inversion with judgment, not as mandates.
+- Validate behavior in proportion to risk. Include failure, retry, cancellation, and compatibility cases when relevant. Treat security and operational reliability as part of implementation.
+- Report executed checks and results exactly. Separate evidence from assumptions; state unknowns and unverified behavior. Never claim tests, deployment, or security review occurred without evidence.
+- When installing this collection in an application repository, replace this file with that repository's concise shared instructions; the knowledge-base guidance below belongs to this vault.
+
 ## Repository Purpose
 - This workspace is an Obsidian-style software-engineering knowledge base.
 - Primary tasks are answering software-engineering questions, curating markdown notes, and expanding coverage without breaking the existing taxonomy.
