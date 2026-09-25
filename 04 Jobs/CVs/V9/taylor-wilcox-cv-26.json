@@ -1,0 +1,449 @@
+{
+  "picture": {
+    "hidden": false,
+    "url": "https://tayzer.github.io/Portfolio/images/Me.jpg",
+    "size": 80,
+    "rotation": 0,
+    "aspectRatio": 1,
+    "borderRadius": 0,
+    "borderColor": "rgba(0, 0, 0, 0.5)",
+    "borderWidth": 0,
+    "shadowColor": "rgba(0, 0, 0, 0.5)",
+    "shadowWidth": 0
+  },
+  "basics": {
+    "name": "Taylor Wilcox",
+    "headline": "Senior Software Engineer",
+    "email": "twilcox.dev@gmail.com",
+    "phone": "+44 7725 886320",
+    "location": "",
+    "website": {
+      "url": "https://tayzer.github.io/Portfolio/",
+      "label": ""
+    },
+    "customFields": []
+  },
+  "summary": {
+    "title": "",
+    "columns": 1,
+    "hidden": false,
+    "content": "<p>Passionate senior software engineer who genuinely enjoys building high-quality, maintainable systems — and the discipline required to keep them that way. I’ve extracted and owned bounded contexts from monoliths, shortened release cycles, and raised the bar on CI/CD along the way. I love learning, building knowledge bases, and leaving codebases cleaner than I found them.</p>"
+  },
+  "sections": {
+    "profiles": {
+      "title": "",
+      "columns": 2,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019bdbb7-40f7-76eb-9079-d619cf946ef9",
+          "hidden": false,
+          "icon": "acorn",
+          "iconColor": "",
+          "network": "LinkedIn",
+          "username": "taylor-wilcox-422798100",
+          "website": {
+            "url": "https://linkedin.com/in/taylor-wilcox-422798100",
+            "label": "",
+            "inlineLink": true
+          }
+        },
+        {
+          "id": "019bdbb7-ae69-766e-8b3d-02d0a94acd81",
+          "hidden": false,
+          "icon": "acorn",
+          "iconColor": "",
+          "network": "GitHub",
+          "username": "tayzer",
+          "website": {
+            "url": "https://github.com/tayzer",
+            "label": "",
+            "inlineLink": true
+          }
+        }
+      ]
+    },
+    "experience": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019bdbb9-669c-77c1-aa4f-3b70df02f5f3",
+          "hidden": false,
+          "company": "TransUnion",
+          "position": "Senior Software Engineer",
+          "location": "",
+          "period": "Jan 2021 – Present",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Led backend modernisation and developer productivity initiatives across multiple business domains, primarily using .NET and Azure.</p><p>Primary skills used: C# 14, .NET 8/10, <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://ASP.NET\">ASP.NET</a> Core, Azure Service Fabric, KeyVault, Application Insights, API Management, .NET Aspire, Service Bus, C++, OpenApi, Octopus Deploy, MySql, TDD, DDD and BDD</p><ul><li><p>Increased release cadence from quarterly to weekly by decomposing a C++/VB.NET/C# monolith into domain-aligned .NET microservices within a Service Fabric cluster.</p></li><li><p>Championed PR-gated CI/CD and trunk-based development practices, reducing downstream breaking-change issues and improving release confidence.</p></li><li><p>Balanced the added operational complexity of microservices through automated integration testing, API versioning, and feature flags.</p></li><li><p>Reduced CI/CD pipeline runtime by ~50% through build/test optimisation and pipeline redesign, shortening feedback loops and merge-to-production time.</p></li><li><p>Modernised A/B comparison tooling by replacing a legacy tool with a new one, built as a series of CLI tools with a bundled Blazor report for easy comparisons by QA, containing features such as accepted difference handling, ignore rules, and PII data masking. Cutting comparison runtime by ~30 minutes and reducing validation effort by several hours per release.</p></li><li><p>Engineered an automated AI workflow that utilizes the Azure DevOps REST API to extract tech debt items, transform them into structured LLM prompts, and execute autonomous resolution via a custom background CLI tool.</p></li><li><p>Mentored engineers regularly, onboarded two cross-functional teams, including our global teams. Acted as tech lead for a month, contributed to hiring interviews, and regularly aligned technical implementation with product and operational stakeholders.</p></li><li><p>Resolved a challenge with our local development and testing practises by engineering a .NET Aspire solution for our distributed system to help improve local development across our connected services.</p></li><li><p>Supported out-of-hours live releases, such as SQL Server migrations and new product releases.</p></li></ul><p></p>",
+          "roles": []
+        },
+        {
+          "id": "019bdbbc-f009-7056-ad8d-4d34311e0ea0",
+          "hidden": false,
+          "company": "CallCredit",
+          "position": "Software Engineer",
+          "location": "",
+          "period": "Jan 2016 – Jan 2021",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Delivered platform and tooling improvements enabling the cloud migration and microservices re-architecture.</p><p>Primary skills used: C#, <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://ASP.NET\">ASP.NET</a> (many versions), C++, COM+, VB6, Azure KeyVault, Application Insights, MySql</p><ul><li><p>Provided care and maintenance to a SOAP, COM+ live system.</p></li></ul><ul><li><p>Led TFVC -&gt; Git migration and introduced trunk-based development to support faster merges and continuous delivery.</p></li><li><p>Introduced EF Core patterns and telemetry on slow queries to prioritise fixes and improve troubleshooting speed.</p></li><li><p>Implemented SpecFlow-based BDD tests across various domains.</p></li><li><p>Contributed to the rollout of OAuth/OpenID Connect for securing our APIs.</p></li><li><p>Led an interactive Game Jam, building a tower defence game using MonoGame.NET, that could be played by programming against an API running alongside the game.</p></li><li><p>Took part as a buddy in the graduate programme, offering support and guidance to new graduates.</p></li></ul><p></p>",
+          "roles": []
+        }
+      ]
+    },
+    "education": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019bdbbe-5406-76ca-a7de-1e6eb133615c",
+          "hidden": false,
+          "school": "Sheffield Hallam",
+          "degree": "Games Software Development",
+          "area": "",
+          "grade": "",
+          "location": "",
+          "period": "",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li><p>I created an interactive guide for a video game, making use of APIs to retrieve the latest game data, built with Unity.</p></li><li><p>Within a team of 4 engineers, I helped build an interactive children's book using C# and Unity, containing accessibility features such as the use of text-to-speech libraries and interactive zooms.</p></li><li><p>Within a team of engineers and artists, I helped develop a PlayStation 4 game using Sony's PhyreEngine.</p></li><li><p>Gained experience across a variety of languages such as C, C++, x86 Assembly, HTML/CSS, and JavaScript.</p></li></ul><p></p>"
+        }
+      ]
+    },
+    "projects": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019bdbbe-c655-76fd-b59c-7ffc06d47b04",
+          "hidden": false,
+          "name": "SyncIt (Blazor)",
+          "period": "Jan 2021 – Deprecated",
+          "website": {
+            "url": "https://syncityo.com",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Real-time multi-user queue for synchronous music sessions. Implemented Spotify APIs with Blazor, ASP.NET Core, SignalR and real-time sync logic. </p>"
+        },
+        {
+          "id": "019e7868-cc0b-70ef-98cf-4692d4f4d21a",
+          "hidden": false,
+          "name": "Front-end hobby projects",
+          "period": "2023 - Present",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>To build knowledge and experience on popular front-end stacks, I've built a few websites, such as a family member's portfolio site, a wedding site, and my own portfolio site using React, TypeScript, Tailwind CSS, Next.Js, Supabase, Vite, and Zustand.</p><p></p>"
+        },
+        {
+          "id": "019e786e-ff20-728f-b400-e4f355ce83ad",
+          "hidden": false,
+          "name": "Battle Arena Manager",
+          "period": "2024 - Present",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Ongoing game project, building using <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://GODOT.NET\">GODOT.NET</a> and C#.</p>"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills - Core",
+      "columns": 5,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019bdbc2-7b8e-740b-8e2a-3675ff14c1ca",
+          "hidden": false,
+          "icon": "code",
+          "iconColor": "",
+          "name": "Languages & Frameworks",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "C#",
+            ".NET (6/8/10)",
+            "ASP.NET Core",
+            "Blazor",
+            "OpenApi"
+          ]
+        },
+        {
+          "id": "019bdbc2-a12b-7131-8b42-84a366a79880",
+          "hidden": false,
+          "icon": "puzzle-piece",
+          "iconColor": "",
+          "name": "Architecture",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "Microservices",
+            "Domain-Driven Design",
+            "Event-Driven Architecture",
+            "Clean Architecture",
+            "CQRS",
+            "Distributed Systems",
+            "AI Agent Development"
+          ]
+        },
+        {
+          "id": "019bdbc3-3a29-758f-a16f-ad7dc1f0df32",
+          "hidden": false,
+          "icon": "database",
+          "iconColor": "",
+          "name": "Data & State",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "Azure SQL",
+            "EF Core",
+            "CosmosDB",
+            "MySQL"
+          ]
+        },
+        {
+          "id": "019bdbc5-28ff-7282-845a-11d6fb96c28b",
+          "hidden": false,
+          "icon": "cloud",
+          "iconColor": "",
+          "name": "Cloud & DevOps",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "CI/CD",
+            "Docker",
+            "Key Vault",
+            "App Services",
+            "API Management",
+            "Azure DevOps",
+            "Service Fabric",
+            "Azure Service Bus",
+            "GitHub Actions",
+            "Octopus Deploy"
+          ]
+        },
+        {
+          "id": "019bdbc5-b17f-7058-bbf6-6d6436aa4777",
+          "hidden": false,
+          "icon": "shield-check",
+          "iconColor": "",
+          "name": "Testing, Sec & Ops",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "MsTest",
+            "Reqnroll",
+            "SonarQube",
+            "App Insights",
+            "Open Telemetry",
+            "OAuth/OIDC",
+            "CheckMarx",
+            "Seeker",
+            "Incident Response"
+          ]
+        }
+      ]
+    },
+    "languages": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "interests": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "awards": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "certifications": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "publications": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "volunteer": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "references": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    }
+  },
+  "customSections": [
+    {
+      "title": "Skills - Secondary",
+      "columns": 4,
+      "hidden": false,
+      "id": "019e788a-7013-71bb-9f30-85fe2381507f",
+      "type": "skills",
+      "items": [
+        {
+          "id": "019e788b-06d8-73a3-a970-5de9d3b35265",
+          "hidden": false,
+          "icon": "code",
+          "iconColor": "",
+          "name": "Languages & Frameworks",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "Kotlin",
+            "React",
+            "TypeScript",
+            "C++",
+            "VB",
+            "JavaScript",
+            "Next.js",
+            "Tailwind CSS"
+          ]
+        },
+        {
+          "id": "019e788d-578b-7342-9e7c-82dbd4930f87",
+          "hidden": false,
+          "icon": "puzzle-piece",
+          "iconColor": "",
+          "name": "Architecture",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "Modular Monolith"
+          ]
+        },
+        {
+          "id": "019e788f-312a-75a8-bd31-44bfa986ebcd",
+          "hidden": false,
+          "icon": "database",
+          "iconColor": "",
+          "name": "Data & State",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "Redis",
+            "Postgres"
+          ]
+        },
+        {
+          "id": "019e788f-f66b-70cd-a272-29b655d16317",
+          "hidden": false,
+          "icon": "cloud",
+          "iconColor": "",
+          "name": "Cloud & DevOps",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "AWS",
+            "GCP",
+            "K8s",
+            "Supabase"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "template": "onyx",
+    "layout": {
+      "sidebarWidth": 32.29,
+      "pages": [
+        {
+          "fullWidth": false,
+          "main": [
+            "profiles",
+            "summary",
+            "experience",
+            "education",
+            "projects",
+            "volunteer",
+            "references"
+          ],
+          "sidebar": [
+            "skills",
+            "certifications",
+            "awards",
+            "languages",
+            "interests",
+            "publications",
+            "019e788a-7013-71bb-9f30-85fe2381507f"
+          ]
+        }
+      ]
+    },
+    "page": {
+      "gapX": 20,
+      "gapY": 1,
+      "marginX": 5,
+      "marginY": 1,
+      "format": "a4",
+      "locale": "en-US",
+      "hideIcons": false
+    },
+    "design": {
+      "level": {
+        "icon": "star",
+        "type": "square"
+      },
+      "colors": {
+        "primary": "rgba(225, 113, 0, 1)",
+        "text": "rgba(0, 0, 0, 1)",
+        "background": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "Calibri",
+        "fontWeights": [
+          "400",
+          "500"
+        ],
+        "fontSize": 10,
+        "lineHeight": 1.45
+      },
+      "heading": {
+        "fontFamily": "Calibri",
+        "fontWeights": [
+          "600"
+        ],
+        "fontSize": 10,
+        "lineHeight": 1.5
+      }
+    },
+    "notes": "",
+    "styleRules": []
+  }
+}

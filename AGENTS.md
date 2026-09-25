@@ -15,6 +15,13 @@
 - When guidance depends on current vendor behavior, framework versions, packages, cloud services, security advice, or incomplete vault coverage, perform targeted external research before finalizing.
 - Prefer primary sources for current claims: official documentation, specifications, release notes, changelogs, maintainer guidance, and security advisories.
 
+## Review `Needs Review` Notes
+
+- For a substantive backlog review, work from the current inventory and prepare one review proposal per source under `01 Inbox/Needs Review Proposals/`, with a queue mapping proposal to canonical source. Keep the source note, index, inventory, and source status unchanged while the user reviews proposals.
+- Assess accuracy against primary sources where practical, useful detail, the KB note/index contract, and the best canonical location. Correct the proposal's main content; record evidence, specific changes, unresolved claims, location reasoning, and promotion blockers in its review section. Keep proposals at `status: Draft`.
+- Review proposals iteratively with the user. Approval authorizes promotion of that proposal's approved content to the canonical path; it does not automatically approve other proposals.
+- After promotion, update relevant indexes and inventory. Set the canonical note to `Current` only when its whole content is supportable; otherwise retain `Needs Review` and document what remains unresolved. Never mark an Inbox proposal `Current`.
+
 ## Codex Skills
 
 Use repo skills under `.agents/skills` when their descriptions match the task:
@@ -47,24 +54,24 @@ Use repo skills under `.agents/skills` when their descriptions match the task:
 
 ## Note Contract
 
-Preserve the established note pattern for notes under `Areas/`:
+Use the canonical [[00 System/Templates/Software Engineering - Reference Note|Reference Note]] template and preserve the note contract for notes under `Areas/`:
 
-- Title as the first heading.
-- `Date`
-- `Status`
-- `Tags`
-- `TL;DR / Quick Reference`
+- `date`, `status`, and `tags` in Obsidian properties. Keep existing values during conversion; default new published notes to `Needs Review`.
+- Title as the first heading after properties.
+- `Quick Reference`
 - `Related Concepts`
 - `Review Schedule`
 
-The TL;DR should include a definition, when to use the topic, and key takeaways. Add deeper sections such as Deep Dive, Resources, Practice Exercises, Personal Notes, Gotchas, or Code Snippet only when they materially improve the note.
+The Quick Reference should include a definition, when to use the topic, actionable points, and a meaningful limit. Add deeper sections such as Deep Dive, examples, alternatives, pitfalls, or sources only when they materially improve the note. Use plain headings and bullets without decorative icons. Template compliance does not establish factual accuracy.
 
 ## Taxonomy
 
-- Use [[Resources/KnowledgeBase/Software Engineering Taxonomy|Software Engineering Taxonomy]] and [[Resources/KnowledgeBase/Taxonomy Rules|Taxonomy Rules]] as authoritative sources.
+- Use [[Software Engineering Taxonomy|Software Engineering Taxonomy]] and [[Taxonomy Rules|Taxonomy Rules]] as authoritative sources.
 - The 13 top-level areas are fixed. Give each concept one canonical home and bridge cross-cutting topics with wikilinks.
 - Use a leaf extension under the nearest approved category for a valid omitted topic; do not create a top-level area without explicit approval.
 - Use category `_Index.md` files for navigation. Planned topics stay plain text until a published note exists.
+- Retain approved planned category folders and indexes even if no note is published there yet; do not infer obsolescence from emptiness.
+- Use [[00 System/Templates/Software Engineering - Category Index|Category Index]] for new indexes and [[00 System/Templates/Software Engineering - Inbox Capture|Inbox Capture]] for one raw idea per Inbox file.
 
 ## Answer Quality
 

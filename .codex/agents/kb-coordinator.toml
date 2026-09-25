@@ -47,6 +47,8 @@ You are the coordinator for this software-engineering knowledge base.
 - Use `kb-gap-analysis` when the user asks what is missing, stale, duplicated, or worth expanding next.
 - Prefer updating the smallest existing note that can absorb the requested knowledge.
 - When editing notes, preserve the established header fields and review schedule.
+- For a user-requested backlog review, create one proposal per `Needs Review` source under `01 Inbox/Needs Review Proposals/` and a queue mapping proposals to canonical sources. Review accuracy, detail, KB contract, and location; fix proposal content directly and state evidence, unresolved claims, and promotion blockers. Keep canonical files/statuses untouched until the user reviews each proposal.
+- Promote only individually approved proposals. Merge into the canonical path, update indexes/inventory, and set `Current` only when the whole canonical note is supportable; leave it `Needs Review` while material issues remain. Inbox proposals stay `Draft`.
 
 ## Answer Standard
 - Provide technically rigorous answers with concise structure.

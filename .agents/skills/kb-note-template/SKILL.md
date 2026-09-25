@@ -14,13 +14,14 @@ argument-hint: "Topic, target file, scope, and desired depth"
 ## Procedure
 1. Search for an existing note before creating a new one.
 2. Prefer the smallest update surface that fits the topic.
-3. Start from the [note template](./assets/note-template.md).
-4. Keep the required title, date, status, tags, TL;DR, related concepts, and review schedule sections.
-5. Add Deep Dive, Resources, Practice Exercises, Personal Notes, or Code Snippet sections only when they materially improve the note.
-6. Keep examples focused and correct for the topic instead of padding the note.
+3. Start from the canonical [[00 System/Templates/Software Engineering - Reference Note|Reference Note]] template. For category navigation, use [[00 System/Templates/Software Engineering - Category Index|Category Index]]; for one raw idea, use [[00 System/Templates/Software Engineering - Inbox Capture|Inbox Capture]].
+4. Keep `date`, `status`, and `tags` as Obsidian properties in published notes. Preserve existing values during conversion; start new notes at `Needs Review`.
+5. Keep the title, `Quick Reference`, `Related Concepts`, and `Review Schedule`. State a definition, concrete use, key points, and a limit in the quick reference.
+6. Add Deep Dive, examples, alternatives, pitfalls, or sources only when they materially improve the note. Remove empty optional sections and unresolved placeholder links.
+7. Keep examples focused and correct for the topic. Use plain headings and bullets without decorative icons.
 
 ## Output Expectations
 - Proposed target file
 - Sections kept or added
-- Key knowledge distilled into the TL;DR
+- Key knowledge distilled into the Quick Reference
 - Open questions or follow-up research if the note still has gaps

@@ -1,0 +1,20 @@
+- IDL section and notes, things like OpenApi, Swagger, do we have a place for these, is IDL appropriate top level?
+- Add note for Quanta
+- Distributed System issues: distributed monolith, transient network failures, a study had 12 failures in a month at a data centre, sharks chewing cables. Chaos monkeys sometimes handling this by doing them
+- Add testing models
+- Add note for Scientist.net
+- Add note for contract testing
+- Add containers, containerisation, kubernates
+- Add monorepos
+- Add .NET Aspire and Docker compose
+- Add docker
+- Add BDD, its creator Dan? How he wanted to take away from the word test
+- Add note for composition over inheritance
+- Add event sourcing CRUD, idempotency
+- Add materilized read model
+- add Hashset
+- Add pipes and filters
+- Add ephemeral enviornments
+- Add database types like b trees, lsm trees, really overhaul this section because its not that suitable to what data/storage is
+- Checksum
+- Add a part for my thoughts on composition over inheritance, how I dont really think we should ever use inheritance, because code does change, inehrritance can slowly make things messy and mean you end up sharing code thats not needed, for instance the Stream classes in .net and how messy they have become, you end up having to resort to i think the decorater pattern? 

@@ -25,17 +25,15 @@ This repo already has agent instructions for Codex (`AGENTS.md`) and GitHub Copi
 
 Every published note under `Areas/` needs:
 
-- Title as the first heading
-- `Date`
-- `Status` (`🟢 Current` or `🟡 Needs Review`)
-- `Tags`
-- `## 🎯 TL;DR / Quick Reference` — must include Definition, When to use, and Key Takeaways
-- `## 🔗 Related Concepts`
-- `## 🔄 Review Schedule`
+- YAML properties `date`, `status`, and `tags` before the title heading
+- `status: Needs Review` for new notes until the whole note is reviewed
+- `## Quick Reference` — include definition, when to use, and key points or limits
+- `## Related Concepts`
+- `## Review Schedule`
 
-Add `## 📚 Deep Dive`, `## 📖 Resources`, `## 🧪 Practice Exercises`, `## 📝 Personal Notes`, or a code snippet/gotchas block only when they materially improve the note — don't pad a note with empty sections.
+Add Deep Dive, Resources, Practice Exercises, Personal Notes, examples, or pitfalls only when they materially improve the note.
 
-Before creating or rewriting a note, read `Resources/KnowledgeBase/Documentation Templates.md` for the exact copy-paste templates (reference, hub, draft) and `Resources/KnowledgeBase/Documentation Standards.md` for the publish gate and status rules. A note that is empty, TODO-only, or still a raw bullet dump does not belong in `Areas/` — it belongs in `Inbox/`.
+Before creating or rewriting a note, use the canonical files under `00 System/Templates/` and read `Resources/KnowledgeBase/Documentation Standards.md` for the publish gate and status rules. Capture raw ideas in `Inbox/`.
 
 Note types:
 - **Reference note** — default type, one concept/technology/pattern.

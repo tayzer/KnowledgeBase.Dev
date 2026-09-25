@@ -1,0 +1,5 @@
+- [ ] Before an AI adds a note to a location, it should add it to an inbox section for review, this should be a rule in the agents info
+- [ ] We should have a section on notes where I can ask questions, so I can revisit them and maybe add context to the note
+- [ ] We should have a central place for devepment processes like FFDD, TDD, BDD, not just spread into seperate locations
+- [ ] Is [[Service Locator]] in the right place?
+- [ ] Go through each link that doesnt have a note and create one

@@ -34,13 +34,13 @@
 
 ## Note Format
 - Preserve the established note contract:
-  - title
-  - Date
-  - Status
-  - Tags
-  - `## 🎯 TL;DR / Quick Reference`
-  - `## 🔗 Related Concepts`
-  - `## 🔄 Review Schedule`
+  - YAML properties `date`, `status`, and `tags`
+  - title as the first heading after properties
+  - `## Quick Reference`
+  - `## Related Concepts`
+  - `## Review Schedule`
+- New notes start with `status: Needs Review`; formatting alone does not establish `Current` status.
+- Use canonical templates under `00 System/Templates/`.
 - Add deeper sections such as Deep Dive, Resources, Practice Exercises, Personal Notes, or Code Snippet only when they improve the note.
 - Preserve Obsidian wikilinks and prefer updating an existing note over duplicating the same topic elsewhere.
 - Keep changes incremental and scoped. Large restructures require an explicit rationale.
