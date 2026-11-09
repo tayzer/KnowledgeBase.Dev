@@ -9,15 +9,16 @@ tags: [taxonomy, strategic-design]
 
 ## Quick Reference
 
-This planned category covers Bounded Contexts, Context Mapping, Core and Supporting Domains. The planned topics below describe the approved scope; no published note or child category is implied.
+This category covers Bounded Contexts, Context Mapping, Core and Supporting Domains, and collaborative discovery of domain behaviour and boundaries. Published notes and planned topics are listed separately.
 
 ## Category Boundary
 
-Use this category for context boundaries and strategic domain choices. Tactical implementation patterns belong in Tactical Design. The planned terms below are plain text until a canonical note is published.
+Use this category for context boundaries, strategic domain choices, and collaborative domain discovery. Tactical implementation patterns belong in Tactical Design. The planned terms below are plain text until a canonical note is published.
 
 ## Published Notes
 
-- No directly published notes yet.
+- [[Domain Storytelling]] - Explore concrete business scenarios through actors, activities, and work objects to develop shared domain understanding.
+- [[EventStorming]] - Explore business-significant events and hotspots to discover workflows, terminology, and candidate boundaries.
 
 ## Subcategories
 
